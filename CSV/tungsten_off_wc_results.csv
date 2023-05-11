@@ -1,0 +1,83 @@
+	
+Elapsed Time	102.291912	18.999696
+Clockticks	2714651100000	333438000000
+Instructions Retired	3395410200000	398332200000
+CPI Rate	0.799506	0.837085
+MUX Reliability	0.999430	0.983011
+Front-End Bound	26.0	25.4
+Front-End Latency	11.8	13.4
+ICache Misses	1.0	1.7
+ITLB Overhead	0.1	0.2
+Branch Resteers	1.1	3.6
+Mispredicts Resteers	0.8	2.7
+Clears Resteers	0.1	0.0
+Unknown Branches	0.2	0.9
+DSB Switches	4.3	2.6
+Length Changing Prefixes	0.0	0.0
+MS Switches	4.9	3.9
+Front-End Bandwidth	14.2	12.0
+Front-End Bandwidth MITE	27.7	22.3
+Front-End Bandwidth DSB	11.3	11.1
+Front-End Bandwidth LSD	2.3	1.5
+(Info) DSB Coverage	35.0	38.3
+(Info) LSD Coverage	9.7	12.0
+Bad Speculation	1.6	4.7
+Branch Mispredict	1.4	4.7
+Machine Clears	0.2	0.0
+Back-End Bound	12.9	20.2
+Memory Bound	7.4	12.7
+L1 Bound	17.2	14.0
+DTLB Overhead	4.8	3.8
+Loads Blocked by Store Forwarding	0.0	0.1
+Lock Latency	0.0	0.0
+Split Loads	0.2	0.0
+4K Aliasing	1.7	2.4
+FB Full	100.0	83.5
+L2 Bound	1.9	1.6
+L3 Bound	1.6	3.4
+Contested Accesses	0.1	1.1
+Data Sharing	0.1	0.1
+L3 Latency	3.5	7.0
+SQ Full	10.1	3.6
+DRAM Bound	5.4	8.6
+Memory Bandwidth	30.6	32.5
+Memory Latency	54.2	55.0
+Local DRAM	8.3	12.2
+Remote DRAM	0.0	0.0
+Remote Cache	0.0	0.0
+Store Bound	9.5	11.1
+Store Latency	28.4	26.4
+Store L2	3.5	2.8
+Store L3	7.4	6.9
+Store Memory	17.5	16.6
+False Sharing	0.2	0.2
+Split Stores	0.5	0.4
+DTLB Store Overhead	0.6	0.7
+Core Bound	5.5	7.5
+Divider	0.0	0.0
+Port Utilization	26.4	22.7
+Cycles of 0 Ports Utilized	82.0	66.3
+Cycles of 1 Port Utilized	12.1	11.5
+Cycles of 2 Ports Utilized	19.9	16.0
+Cycles of 3+ Ports Utilized	50.0	38.9
+Port 0	31.5	25.2
+Port 1	30.0	26.2
+Port 2	37.0	35.7
+Port 3	38.2	36.3
+Port 4	30.9	29.9
+Port 5	30.5	26.5
+Port 6	46.2	41.9
+Port 7	15.3	15.4
+Vector Capacity Usage (FPU)	25.0	0.0
+Retiring	59.5	49.7
+General Retirement	54.1	45.6
+FP Arithmetic	0.0	0.0
+FP x87	0.0	0.0
+FP Scalar	0.0	0.0
+FP Vector	0.0	0.0
+Other	100.0	100.0
+Microcode Sequencer	5.4	4.1
+Assists	0.0	0.0
+Total Thread Count	151	145
+Paused Time	0.0	0.0
+Frame Count	76	26

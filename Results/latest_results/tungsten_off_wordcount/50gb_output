@@ -1,0 +1,27 @@
+Benchmark - wordcount ; Tungsten - off ; Input Size - 50gb
++----------+-------+
+|      word|  count|
++----------+-------+
+|   familia| 233017|
+|       art|1160183|
+| involving|2256754|
+|    djelfa| 858595|
+|    travel| 552174|
+| connected| 380881|
+|      some|8079889|
+| recognize| 237538|
+|    ransom| 172036|
+|    online|1936348|
+|       few|1739163|
+|        07|4615660|
+|     1970s| 487580|
+|     those|2631559|
+|       dmy| 831049|
+|lieutenant| 625232|
+|     still|2450894|
+|  tortured| 208858|
+| standards| 328828|
+|      hope| 377678|
++----------+-------+
+only showing top 20 rows
+

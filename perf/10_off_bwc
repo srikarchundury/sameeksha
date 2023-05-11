@@ -1,0 +1,1237 @@
+# started on Fri Dec 21 19:54:47 2018
+
+#           time             counts unit events
+     1.001751960        4003.525197      task-clock (msec)          (100.00%)
+     1.001751960              3,514      context-switches           (100.00%)
+     1.001751960                 76      cpu-migrations             (100.00%)
+     1.001751960             15,098      page-faults              
+     1.001751960      4,128,935,079      cycles                     (100.00%)
+     1.001751960    <not supported>      stalled-cycles-frontend  
+     1.001751960    <not supported>      stalled-cycles-backend   
+     1.001751960      4,413,194,343      instructions               (100.00%)
+     1.001751960        831,579,582      branches                   (100.00%)
+     1.001751960         33,243,035      branch-misses            
+     2.002090743        4007.558578      task-clock (msec)          (100.00%)
+     2.002090743              2,507      context-switches           (100.00%)
+     2.002090743                115      cpu-migrations             (100.00%)
+     2.002090743             14,847      page-faults              
+     2.002090743      6,073,235,796      cycles                     (100.00%)
+     2.002090743    <not supported>      stalled-cycles-frontend  
+     2.002090743    <not supported>      stalled-cycles-backend   
+     2.002090743      5,960,785,386      instructions               (100.00%)
+     2.002090743      1,154,766,853      branches                   (100.00%)
+     2.002090743         43,605,315      branch-misses            
+     3.002357625        4001.195031      task-clock (msec)          (100.00%)
+     3.002357625              2,808      context-switches           (100.00%)
+     3.002357625                 47      cpu-migrations             (100.00%)
+     3.002357625             18,838      page-faults              
+     3.002357625      7,483,078,840      cycles                     (100.00%)
+     3.002357625    <not supported>      stalled-cycles-frontend  
+     3.002357625    <not supported>      stalled-cycles-backend   
+     3.002357625      7,496,940,674      instructions               (100.00%)
+     3.002357625      1,420,322,065      branches                   (100.00%)
+     3.002357625         45,172,262      branch-misses            
+     4.002617994        4001.155282      task-clock (msec)          (100.00%)
+     4.002617994              2,871      context-switches           (100.00%)
+     4.002617994                185      cpu-migrations             (100.00%)
+     4.002617994              2,790      page-faults              
+     4.002617994      9,298,128,458      cycles                     (100.00%)
+     4.002617994    <not supported>      stalled-cycles-frontend  
+     4.002617994    <not supported>      stalled-cycles-backend   
+     4.002617994      7,972,738,843      instructions               (100.00%)
+     4.002617994      1,455,007,945      branches                   (100.00%)
+     4.002617994         42,950,500      branch-misses            
+     5.002893233        4001.156068      task-clock (msec)          (100.00%)
+     5.002893233              1,172      context-switches           (100.00%)
+     5.002893233                 61      cpu-migrations             (100.00%)
+     5.002893233              1,351      page-faults              
+     5.002893233     11,180,403,859      cycles                     (100.00%)
+     5.002893233    <not supported>      stalled-cycles-frontend  
+     5.002893233    <not supported>      stalled-cycles-backend   
+     5.002893233     15,241,174,975      instructions               (100.00%)
+     5.002893233      2,954,503,756      branches                   (100.00%)
+     5.002893233         10,593,579      branch-misses            
+     6.003181412        4001.255555      task-clock (msec)          (100.00%)
+     6.003181412              1,804      context-switches           (100.00%)
+     6.003181412                160      cpu-migrations             (100.00%)
+     6.003181412              1,700      page-faults              
+     6.003181412     11,495,205,222      cycles                     (100.00%)
+     6.003181412    <not supported>      stalled-cycles-frontend  
+     6.003181412    <not supported>      stalled-cycles-backend   
+     6.003181412     13,572,587,475      instructions               (100.00%)
+     6.003181412      2,589,610,579      branches                   (100.00%)
+     6.003181412         25,205,526      branch-misses            
+     7.003481558        4001.243577      task-clock (msec)          (100.00%)
+     7.003481558              1,008      context-switches           (100.00%)
+     7.003481558                 42      cpu-migrations             (100.00%)
+     7.003481558                283      page-faults              
+     7.003481558     11,628,618,796      cycles                     (100.00%)
+     7.003481558    <not supported>      stalled-cycles-frontend  
+     7.003481558    <not supported>      stalled-cycles-backend   
+     7.003481558     16,485,056,836      instructions               (100.00%)
+     7.003481558      3,193,366,661      branches                   (100.00%)
+     7.003481558         16,708,172      branch-misses            
+     8.003751553        4001.211490      task-clock (msec)          (100.00%)
+     8.003751553              1,117      context-switches           (100.00%)
+     8.003751553                 61      cpu-migrations             (100.00%)
+     8.003751553              1,139      page-faults              
+     8.003751553     11,403,792,076      cycles                     (100.00%)
+     8.003751553    <not supported>      stalled-cycles-frontend  
+     8.003751553    <not supported>      stalled-cycles-backend   
+     8.003751553     15,244,658,907      instructions               (100.00%)
+     8.003751553      2,939,086,405      branches                   (100.00%)
+     8.003751553         19,887,750      branch-misses            
+     9.004027205        4001.158506      task-clock (msec)          (100.00%)
+     9.004027205                966      context-switches           (100.00%)
+     9.004027205                 50      cpu-migrations             (100.00%)
+     9.004027205              1,133      page-faults              
+     9.004027205     11,385,518,736      cycles                     (100.00%)
+     9.004027205    <not supported>      stalled-cycles-frontend  
+     9.004027205    <not supported>      stalled-cycles-backend   
+     9.004027205     16,235,237,291      instructions               (100.00%)
+     9.004027205      3,154,195,171      branches                   (100.00%)
+     9.004027205          9,951,270      branch-misses            
+    10.004292588        4001.106983      task-clock (msec)          (100.00%)
+    10.004292588              1,157      context-switches           (100.00%)
+    10.004292588                 64      cpu-migrations             (100.00%)
+    10.004292588                315      page-faults              
+    10.004292588     11,328,444,523      cycles                     (100.00%)
+    10.004292588    <not supported>      stalled-cycles-frontend  
+    10.004292588    <not supported>      stalled-cycles-backend   
+    10.004292588     16,094,296,171      instructions               (100.00%)
+    10.004292588      3,111,556,454      branches                   (100.00%)
+    10.004292588         15,298,105      branch-misses            
+    11.004564423        4001.206809      task-clock (msec)          (100.00%)
+    11.004564423                956      context-switches           (100.00%)
+    11.004564423                 36      cpu-migrations             (100.00%)
+    11.004564423                125      page-faults              
+    11.004564423     11,630,793,512      cycles                     (100.00%)
+    11.004564423    <not supported>      stalled-cycles-frontend  
+    11.004564423    <not supported>      stalled-cycles-backend   
+    11.004564423     16,567,121,000      instructions               (100.00%)
+    11.004564423      3,194,250,573      branches                   (100.00%)
+    11.004564423         13,968,483      branch-misses            
+    12.004851999        4001.233012      task-clock (msec)          (100.00%)
+    12.004851999                930      context-switches           (100.00%)
+    12.004851999                 40      cpu-migrations             (100.00%)
+    12.004851999              1,350      page-faults              
+    12.004851999      9,801,067,952      cycles                     (100.00%)
+    12.004851999    <not supported>      stalled-cycles-frontend  
+    12.004851999    <not supported>      stalled-cycles-backend   
+    12.004851999     15,312,975,794      instructions               (100.00%)
+    12.004851999      2,971,567,381      branches                   (100.00%)
+    12.004851999         10,694,138      branch-misses            
+    13.005142088        4001.248412      task-clock (msec)          (100.00%)
+    13.005142088              1,127      context-switches           (100.00%)
+    13.005142088                 54      cpu-migrations             (100.00%)
+    13.005142088                 95      page-faults              
+    13.005142088     11,512,727,827      cycles                     (100.00%)
+    13.005142088    <not supported>      stalled-cycles-frontend  
+    13.005142088    <not supported>      stalled-cycles-backend   
+    13.005142088     16,697,757,908      instructions               (100.00%)
+    13.005142088      3,225,193,160      branches                   (100.00%)
+    13.005142088         13,697,033      branch-misses            
+    14.005412567        4001.157214      task-clock (msec)          (100.00%)
+    14.005412567                839      context-switches           (100.00%)
+    14.005412567                 12      cpu-migrations             (100.00%)
+    14.005412567                 34      page-faults              
+    14.005412567     11,639,074,496      cycles                     (100.00%)
+    14.005412567    <not supported>      stalled-cycles-frontend  
+    14.005412567    <not supported>      stalled-cycles-backend   
+    14.005412567     17,037,592,726      instructions               (100.00%)
+    14.005412567      3,287,990,625      branches                   (100.00%)
+    14.005412567         12,387,391      branch-misses            
+    15.005672819        4001.139346      task-clock (msec)          (100.00%)
+    15.005672819                972      context-switches           (100.00%)
+    15.005672819                 46      cpu-migrations             (100.00%)
+    15.005672819                807      page-faults              
+    15.005672819     11,621,877,731      cycles                     (100.00%)
+    15.005672819    <not supported>      stalled-cycles-frontend  
+    15.005672819    <not supported>      stalled-cycles-backend   
+    15.005672819     15,622,216,582      instructions               (100.00%)
+    15.005672819      3,020,691,690      branches                   (100.00%)
+    15.005672819         13,487,048      branch-misses            
+    16.005937328        4001.128362      task-clock (msec)          (100.00%)
+    16.005937328                986      context-switches           (100.00%)
+    16.005937328                 37      cpu-migrations             (100.00%)
+    16.005937328                202      page-faults              
+    16.005937328     11,389,901,737      cycles                     (100.00%)
+    16.005937328    <not supported>      stalled-cycles-frontend  
+    16.005937328    <not supported>      stalled-cycles-backend   
+    16.005937328     16,031,144,288      instructions               (100.00%)
+    16.005937328      3,092,145,410      branches                   (100.00%)
+    16.005937328         19,791,501      branch-misses            
+    17.006208980        4001.176442      task-clock (msec)          (100.00%)
+    17.006208980                826      context-switches           (100.00%)
+    17.006208980                 19      cpu-migrations             (100.00%)
+    17.006208980              4,194      page-faults              
+    17.006208980     11,685,160,723      cycles                     (100.00%)
+    17.006208980    <not supported>      stalled-cycles-frontend  
+    17.006208980    <not supported>      stalled-cycles-backend   
+    17.006208980     16,729,639,685      instructions               (100.00%)
+    17.006208980      3,222,558,299      branches                   (100.00%)
+    17.006208980         15,318,225      branch-misses            
+    18.006501022        4001.243213      task-clock (msec)          (100.00%)
+    18.006501022                993      context-switches           (100.00%)
+    18.006501022                 40      cpu-migrations             (100.00%)
+    18.006501022                 20      page-faults              
+    18.006501022     11,382,573,022      cycles                     (100.00%)
+    18.006501022    <not supported>      stalled-cycles-frontend  
+    18.006501022    <not supported>      stalled-cycles-backend   
+    18.006501022     17,000,951,332      instructions               (100.00%)
+    18.006501022      3,279,606,198      branches                   (100.00%)
+    18.006501022         12,664,928      branch-misses            
+    19.006763604        4001.147371      task-clock (msec)          (100.00%)
+    19.006763604              1,015      context-switches           (100.00%)
+    19.006763604                 55      cpu-migrations             (100.00%)
+    19.006763604              1,469      page-faults              
+    19.006763604     11,542,149,327      cycles                     (100.00%)
+    19.006763604    <not supported>      stalled-cycles-frontend  
+    19.006763604    <not supported>      stalled-cycles-backend   
+    19.006763604     15,858,724,439      instructions               (100.00%)
+    19.006763604      3,064,796,576      branches                   (100.00%)
+    19.006763604         11,440,212      branch-misses            
+    20.007035693        4001.155977      task-clock (msec)          (100.00%)
+    20.007035693                991      context-switches           (100.00%)
+    20.007035693                 26      cpu-migrations             (100.00%)
+    20.007035693                 38      page-faults              
+    20.007035693     11,633,692,106      cycles                     (100.00%)
+    20.007035693    <not supported>      stalled-cycles-frontend  
+    20.007035693    <not supported>      stalled-cycles-backend   
+    20.007035693     17,077,906,345      instructions               (100.00%)
+    20.007035693      3,295,467,438      branches                   (100.00%)
+    20.007035693         14,382,673      branch-misses            
+    21.007307345        4001.166178      task-clock (msec)          (100.00%)
+    21.007307345                994      context-switches           (100.00%)
+    21.007307345                 37      cpu-migrations             (100.00%)
+    21.007307345                260      page-faults              
+    21.007307345     11,734,782,191      cycles                     (100.00%)
+    21.007307345    <not supported>      stalled-cycles-frontend  
+    21.007307345    <not supported>      stalled-cycles-backend   
+    21.007307345     16,794,979,369      instructions               (100.00%)
+    21.007307345      3,244,808,490      branches                   (100.00%)
+    21.007307345         15,031,959      branch-misses            
+    22.007595108        4001.239871      task-clock (msec)          (100.00%)
+    22.007595108              1,092      context-switches           (100.00%)
+    22.007595108                 53      cpu-migrations             (100.00%)
+    22.007595108                 84      page-faults              
+    22.007595108     11,620,350,762      cycles                     (100.00%)
+    22.007595108    <not supported>      stalled-cycles-frontend  
+    22.007595108    <not supported>      stalled-cycles-backend   
+    22.007595108     17,134,482,340      instructions               (100.00%)
+    22.007595108      3,301,544,164      branches                   (100.00%)
+    22.007595108         12,862,662      branch-misses            
+    23.007872836        4001.190711      task-clock (msec)          (100.00%)
+    23.007872836                914      context-switches           (100.00%)
+    23.007872836                 28      cpu-migrations             (100.00%)
+    23.007872836                295      page-faults              
+    23.007872836     11,749,164,139      cycles                     (100.00%)
+    23.007872836    <not supported>      stalled-cycles-frontend  
+    23.007872836    <not supported>      stalled-cycles-backend   
+    23.007872836     16,579,528,393      instructions               (100.00%)
+    23.007872836      3,197,198,030      branches                   (100.00%)
+    23.007872836         10,975,527      branch-misses            
+    24.008172902        4001.273608      task-clock (msec)          (100.00%)
+    24.008172902                814      context-switches           (100.00%)
+    24.008172902                 10      cpu-migrations             (100.00%)
+    24.008172902                925      page-faults              
+    24.008172902     11,643,249,348      cycles                     (100.00%)
+    24.008172902    <not supported>      stalled-cycles-frontend  
+    24.008172902    <not supported>      stalled-cycles-backend   
+    24.008172902     16,915,299,630      instructions               (100.00%)
+    24.008172902      3,276,059,099      branches                   (100.00%)
+    24.008172902         10,485,252      branch-misses            
+    25.008456971        4001.208381      task-clock (msec)          (100.00%)
+    25.008456971                959      context-switches           (100.00%)
+    25.008456971                 37      cpu-migrations             (100.00%)
+    25.008456971                376      page-faults              
+    25.008456971     11,714,043,984      cycles                     (100.00%)
+    25.008456971    <not supported>      stalled-cycles-frontend  
+    25.008456971    <not supported>      stalled-cycles-backend   
+    25.008456971     16,555,675,799      instructions               (100.00%)
+    25.008456971      3,179,302,709      branches                   (100.00%)
+    25.008456971         16,412,327      branch-misses            
+#           time             counts unit events
+    26.008778300        4001.237202      task-clock (msec)          (100.00%)
+    26.008778300                833      context-switches           (100.00%)
+    26.008778300                 27      cpu-migrations             (100.00%)
+    26.008778300                135      page-faults              
+    26.008778300     11,677,006,486      cycles                     (100.00%)
+    26.008778300    <not supported>      stalled-cycles-frontend  
+    26.008778300    <not supported>      stalled-cycles-backend   
+    26.008778300     16,925,240,603      instructions               (100.00%)
+    26.008778300      3,259,247,354      branches                   (100.00%)
+    26.008778300         12,830,409      branch-misses            
+    27.009052642        4001.317642      task-clock (msec)          (100.00%)
+    27.009052642                821      context-switches           (100.00%)
+    27.009052642                 27      cpu-migrations             (100.00%)
+    27.009052642                 38      page-faults              
+    27.009052642     11,292,381,213      cycles                     (100.00%)
+    27.009052642    <not supported>      stalled-cycles-frontend  
+    27.009052642    <not supported>      stalled-cycles-backend   
+    27.009052642     16,959,007,551      instructions               (100.00%)
+    27.009052642      3,252,973,837      branches                   (100.00%)
+    27.009052642         12,356,833      branch-misses            
+    28.009343861        4001.253275      task-clock (msec)          (100.00%)
+    28.009343861                945      context-switches           (100.00%)
+    28.009343861                 35      cpu-migrations             (100.00%)
+    28.009343861                 72      page-faults              
+    28.009343861     11,687,278,461      cycles                     (100.00%)
+    28.009343861    <not supported>      stalled-cycles-frontend  
+    28.009343861    <not supported>      stalled-cycles-backend   
+    28.009343861     16,874,907,343      instructions               (100.00%)
+    28.009343861      3,231,615,543      branches                   (100.00%)
+    28.009343861         14,051,539      branch-misses            
+    29.009627493        4001.213472      task-clock (msec)          (100.00%)
+    29.009627493                836      context-switches           (100.00%)
+    29.009627493                 13      cpu-migrations             (100.00%)
+    29.009627493            212,498      page-faults              
+    29.009627493     11,703,218,381      cycles                     (100.00%)
+    29.009627493    <not supported>      stalled-cycles-frontend  
+    29.009627493    <not supported>      stalled-cycles-backend   
+    29.009627493     12,199,641,059      instructions               (100.00%)
+    29.009627493      2,315,041,110      branches                   (100.00%)
+    29.009627493          6,867,347      branch-misses            
+    30.009900535        4001.167407      task-clock (msec)          (100.00%)
+    30.009900535              1,049      context-switches           (100.00%)
+    30.009900535                 45      cpu-migrations             (100.00%)
+    30.009900535              5,442      page-faults              
+    30.009900535     11,339,280,325      cycles                     (100.00%)
+    30.009900535    <not supported>      stalled-cycles-frontend  
+    30.009900535    <not supported>      stalled-cycles-backend   
+    30.009900535     16,662,915,925      instructions               (100.00%)
+    30.009900535      3,190,404,719      branches                   (100.00%)
+    30.009900535         11,773,749      branch-misses            
+    31.010169227        4001.165181      task-clock (msec)          (100.00%)
+    31.010169227                938      context-switches           (100.00%)
+    31.010169227                 28      cpu-migrations             (100.00%)
+    31.010169227                 37      page-faults              
+    31.010169227     11,690,584,584      cycles                     (100.00%)
+    31.010169227    <not supported>      stalled-cycles-frontend  
+    31.010169227    <not supported>      stalled-cycles-backend   
+    31.010169227     17,114,320,188      instructions               (100.00%)
+    31.010169227      3,283,723,423      branches                   (100.00%)
+    31.010169227         11,241,390      branch-misses            
+    32.010424266        4001.096340      task-clock (msec)          (100.00%)
+    32.010424266                874      context-switches           (100.00%)
+    32.010424266                 24      cpu-migrations             (100.00%)
+    32.010424266             14,254      page-faults              
+    32.010424266     11,684,840,964      cycles                     (100.00%)
+    32.010424266    <not supported>      stalled-cycles-frontend  
+    32.010424266    <not supported>      stalled-cycles-backend   
+    32.010424266     16,451,605,951      instructions               (100.00%)
+    32.010424266      3,164,012,751      branches                   (100.00%)
+    32.010424266          9,772,577      branch-misses            
+    33.010701491        4001.194823      task-clock (msec)          (100.00%)
+    33.010701491                868      context-switches           (100.00%)
+    33.010701491                 28      cpu-migrations             (100.00%)
+    33.010701491                 60      page-faults              
+    33.010701491     11,703,246,574      cycles                     (100.00%)
+    33.010701491    <not supported>      stalled-cycles-frontend  
+    33.010701491    <not supported>      stalled-cycles-backend   
+    33.010701491     17,026,980,806      instructions               (100.00%)
+    33.010701491      3,256,034,492      branches                   (100.00%)
+    33.010701491         14,423,306      branch-misses            
+    34.010981520        4001.192820      task-clock (msec)          (100.00%)
+    34.010981520                852      context-switches           (100.00%)
+    34.010981520                 28      cpu-migrations             (100.00%)
+    34.010981520                 29      page-faults              
+    34.010981520     11,689,957,511      cycles                     (100.00%)
+    34.010981520    <not supported>      stalled-cycles-frontend  
+    34.010981520    <not supported>      stalled-cycles-backend   
+    34.010981520     16,611,735,062      instructions               (100.00%)
+    34.010981520      3,224,432,558      branches                   (100.00%)
+    34.010981520         14,723,055      branch-misses            
+    35.011270132        4001.250790      task-clock (msec)          (100.00%)
+    35.011270132                780      context-switches           (100.00%)
+    35.011270132                  3      cpu-migrations             (100.00%)
+    35.011270132             77,693      page-faults              
+    35.011270132     11,772,574,349      cycles                     (100.00%)
+    35.011270132    <not supported>      stalled-cycles-frontend  
+    35.011270132    <not supported>      stalled-cycles-backend   
+    35.011270132     15,827,710,223      instructions               (100.00%)
+    35.011270132      3,027,877,454      branches                   (100.00%)
+    35.011270132         10,425,197      branch-misses            
+    36.011539634        4001.162932      task-clock (msec)          (100.00%)
+    36.011539634                869      context-switches           (100.00%)
+    36.011539634                 32      cpu-migrations             (100.00%)
+    36.011539634            253,490      page-faults              
+    36.011539634     11,635,330,635      cycles                     (100.00%)
+    36.011539634    <not supported>      stalled-cycles-frontend  
+    36.011539634    <not supported>      stalled-cycles-backend   
+    36.011539634     10,762,290,771      instructions               (100.00%)
+    36.011539634      2,029,668,059      branches                   (100.00%)
+    36.011539634         10,068,773      branch-misses            
+    37.011796016        4001.096139      task-clock (msec)          (100.00%)
+    37.011796016                755      context-switches           (100.00%)
+    37.011796016                 15      cpu-migrations             (100.00%)
+    37.011796016                 67      page-faults              
+    37.011796016     11,311,485,103      cycles                     (100.00%)
+    37.011796016    <not supported>      stalled-cycles-frontend  
+    37.011796016    <not supported>      stalled-cycles-backend   
+    37.011796016     16,754,788,955      instructions               (100.00%)
+    37.011796016      3,206,172,561      branches                   (100.00%)
+    37.011796016         14,278,609      branch-misses            
+    38.012069311        4001.184982      task-clock (msec)          (100.00%)
+    38.012069311              1,078      context-switches           (100.00%)
+    38.012069311                 33      cpu-migrations             (100.00%)
+    38.012069311                 54      page-faults              
+    38.012069311     11,669,165,523      cycles                     (100.00%)
+    38.012069311    <not supported>      stalled-cycles-frontend  
+    38.012069311    <not supported>      stalled-cycles-backend   
+    38.012069311     17,020,733,250      instructions               (100.00%)
+    38.012069311      3,259,903,204      branches                   (100.00%)
+    38.012069311         11,321,053      branch-misses            
+    39.012333673        4001.136385      task-clock (msec)          (100.00%)
+    39.012333673                889      context-switches           (100.00%)
+    39.012333673                 29      cpu-migrations             (100.00%)
+    39.012333673                604      page-faults              
+    39.012333673     11,701,597,194      cycles                     (100.00%)
+    39.012333673    <not supported>      stalled-cycles-frontend  
+    39.012333673    <not supported>      stalled-cycles-backend   
+    39.012333673     16,882,785,722      instructions               (100.00%)
+    39.012333673      3,242,965,778      branches                   (100.00%)
+    39.012333673         11,756,184      branch-misses            
+    40.012626195        4001.253982      task-clock (msec)          (100.00%)
+    40.012626195                800      context-switches           (100.00%)
+    40.012626195                 12      cpu-migrations             (100.00%)
+    40.012626195             20,418      page-faults              
+    40.012626195     11,509,443,742      cycles                     (100.00%)
+    40.012626195    <not supported>      stalled-cycles-frontend  
+    40.012626195    <not supported>      stalled-cycles-backend   
+    40.012626195     16,628,023,588      instructions               (100.00%)
+    40.012626195      3,189,680,150      branches                   (100.00%)
+    40.012626195         10,609,753      branch-misses            
+    41.012905764        4001.192346      task-clock (msec)          (100.00%)
+    41.012905764                947      context-switches           (100.00%)
+    41.012905764                 44      cpu-migrations             (100.00%)
+    41.012905764                 15      page-faults              
+    41.012905764     11,683,951,803      cycles                     (100.00%)
+    41.012905764    <not supported>      stalled-cycles-frontend  
+    41.012905764    <not supported>      stalled-cycles-backend   
+    41.012905764     16,524,260,093      instructions               (100.00%)
+    41.012905764      3,193,789,208      branches                   (100.00%)
+    41.012905764         14,335,387      branch-misses            
+    42.013189173        4001.198723      task-clock (msec)          (100.00%)
+    42.013189173                868      context-switches           (100.00%)
+    42.013189173                 23      cpu-migrations             (100.00%)
+    42.013189173                 45      page-faults              
+    42.013189173     11,661,579,407      cycles                     (100.00%)
+    42.013189173    <not supported>      stalled-cycles-frontend  
+    42.013189173    <not supported>      stalled-cycles-backend   
+    42.013189173     16,518,397,220      instructions               (100.00%)
+    42.013189173      3,157,081,368      branches                   (100.00%)
+    42.013189173         16,375,020      branch-misses            
+    43.013481021        4001.255290      task-clock (msec)          (100.00%)
+    43.013481021                873      context-switches           (100.00%)
+    43.013481021                 21      cpu-migrations             (100.00%)
+    43.013481021            139,064      page-faults              
+    43.013481021     11,584,337,920      cycles                     (100.00%)
+    43.013481021    <not supported>      stalled-cycles-frontend  
+    43.013481021    <not supported>      stalled-cycles-backend   
+    43.013481021     13,945,324,581      instructions               (100.00%)
+    43.013481021      2,650,673,948      branches                   (100.00%)
+    43.013481021          9,393,173      branch-misses            
+    44.013758080        4001.198512      task-clock (msec)          (100.00%)
+    44.013758080                861      context-switches           (100.00%)
+    44.013758080                 22      cpu-migrations             (100.00%)
+    44.013758080            178,613      page-faults              
+    44.013758080     11,362,355,405      cycles                     (100.00%)
+    44.013758080    <not supported>      stalled-cycles-frontend  
+    44.013758080    <not supported>      stalled-cycles-backend   
+    44.013758080     12,756,624,358      instructions               (100.00%)
+    44.013758080      2,416,699,970      branches                   (100.00%)
+    44.013758080          8,178,309      branch-misses            
+    45.014013699        4001.120166      task-clock (msec)          (100.00%)
+    45.014013699                837      context-switches           (100.00%)
+    45.014013699                 26      cpu-migrations             (100.00%)
+    45.014013699                253      page-faults              
+    45.014013699     11,771,586,484      cycles                     (100.00%)
+    45.014013699    <not supported>      stalled-cycles-frontend  
+    45.014013699    <not supported>      stalled-cycles-backend   
+    45.014013699     16,575,118,975      instructions               (100.00%)
+    45.014013699      3,162,914,082      branches                   (100.00%)
+    45.014013699         18,087,666      branch-misses            
+    46.014299490        4001.214833      task-clock (msec)          (100.00%)
+    46.014299490                889      context-switches           (100.00%)
+    46.014299490                 44      cpu-migrations             (100.00%)
+    46.014299490                 86      page-faults              
+    46.014299490     11,516,457,760      cycles                     (100.00%)
+    46.014299490    <not supported>      stalled-cycles-frontend  
+    46.014299490    <not supported>      stalled-cycles-backend   
+    46.014299490     16,906,817,133      instructions               (100.00%)
+    46.014299490      3,229,371,192      branches                   (100.00%)
+    46.014299490         12,761,024      branch-misses            
+    47.014572686        4001.175574      task-clock (msec)          (100.00%)
+    47.014572686                784      context-switches           (100.00%)
+    47.014572686                 12      cpu-migrations             (100.00%)
+    47.014572686                  6      page-faults              
+    47.014572686     11,740,076,218      cycles                     (100.00%)
+    47.014572686    <not supported>      stalled-cycles-frontend  
+    47.014572686    <not supported>      stalled-cycles-backend   
+    47.014572686     17,360,763,576      instructions               (100.00%)
+    47.014572686      3,325,381,386      branches                   (100.00%)
+    47.014572686         10,563,705      branch-misses            
+    48.014851781        4001.182150      task-clock (msec)          (100.00%)
+    48.014851781                843      context-switches           (100.00%)
+    48.014851781                 24      cpu-migrations             (100.00%)
+    48.014851781             17,610      page-faults              
+    48.014851781     11,703,696,713      cycles                     (100.00%)
+    48.014851781    <not supported>      stalled-cycles-frontend  
+    48.014851781    <not supported>      stalled-cycles-backend   
+    48.014851781     16,312,402,835      instructions               (100.00%)
+    48.014851781      3,120,782,744      branches                   (100.00%)
+    48.014851781         10,131,795      branch-misses            
+    49.015127906        4001.195747      task-clock (msec)          (100.00%)
+    49.015127906                896      context-switches           (100.00%)
+    49.015127906                 36      cpu-migrations             (100.00%)
+    49.015127906                  8      page-faults              
+    49.015127906     11,563,566,952      cycles                     (100.00%)
+    49.015127906    <not supported>      stalled-cycles-frontend  
+    49.015127906    <not supported>      stalled-cycles-backend   
+    49.015127906     17,216,896,033      instructions               (100.00%)
+    49.015127906      3,289,687,214      branches                   (100.00%)
+    49.015127906         11,194,412      branch-misses            
+    50.015396198        4001.155840      task-clock (msec)          (100.00%)
+    50.015396198                845      context-switches           (100.00%)
+    50.015396198                 35      cpu-migrations             (100.00%)
+    50.015396198                  6      page-faults              
+    50.015396198     11,431,990,167      cycles                     (100.00%)
+    50.015396198    <not supported>      stalled-cycles-frontend  
+    50.015396198    <not supported>      stalled-cycles-backend   
+    50.015396198     17,123,022,736      instructions               (100.00%)
+    50.015396198      3,275,101,024      branches                   (100.00%)
+    50.015396198         10,788,598      branch-misses            
+#           time             counts unit events
+    51.015683403        4001.234295      task-clock (msec)          (100.00%)
+    51.015683403                812      context-switches           (100.00%)
+    51.015683403                 25      cpu-migrations             (100.00%)
+    51.015683403             17,637      page-faults              
+    51.015683403     11,666,852,448      cycles                     (100.00%)
+    51.015683403    <not supported>      stalled-cycles-frontend  
+    51.015683403    <not supported>      stalled-cycles-backend   
+    51.015683403     16,864,485,057      instructions               (100.00%)
+    51.015683403      3,232,444,977      branches                   (100.00%)
+    51.015683403          9,884,777      branch-misses            
+    52.015962592        4001.175935      task-clock (msec)          (100.00%)
+    52.015962592              1,043      context-switches           (100.00%)
+    52.015962592                 47      cpu-migrations             (100.00%)
+    52.015962592            308,915      page-faults              
+    52.015962592     11,549,784,325      cycles                     (100.00%)
+    52.015962592    <not supported>      stalled-cycles-frontend  
+    52.015962592    <not supported>      stalled-cycles-backend   
+    52.015962592      9,561,650,339      instructions               (100.00%)
+    52.015962592      1,780,005,483      branches                   (100.00%)
+    52.015962592          6,643,373      branch-misses            
+    53.016240194        4001.215817      task-clock (msec)          (100.00%)
+    53.016240194                819      context-switches           (100.00%)
+    53.016240194                 15      cpu-migrations             (100.00%)
+    53.016240194                  4      page-faults              
+    53.016240194     11,685,582,504      cycles                     (100.00%)
+    53.016240194    <not supported>      stalled-cycles-frontend  
+    53.016240194    <not supported>      stalled-cycles-backend   
+    53.016240194     17,517,233,979      instructions               (100.00%)
+    53.016240194      3,355,678,754      branches                   (100.00%)
+    53.016240194         10,489,762      branch-misses            
+    54.016521206        4001.194405      task-clock (msec)          (100.00%)
+    54.016521206                946      context-switches           (100.00%)
+    54.016521206                 36      cpu-migrations             (100.00%)
+    54.016521206                 12      page-faults              
+    54.016521206     11,508,529,937      cycles                     (100.00%)
+    54.016521206    <not supported>      stalled-cycles-frontend  
+    54.016521206    <not supported>      stalled-cycles-backend   
+    54.016521206     17,049,430,392      instructions               (100.00%)
+    54.016521206      3,259,597,818      branches                   (100.00%)
+    54.016521206         11,361,067      branch-misses            
+    55.016843154        4001.308098      task-clock (msec)          (100.00%)
+    55.016843154                955      context-switches           (100.00%)
+    55.016843154                 34      cpu-migrations             (100.00%)
+    55.016843154                 22      page-faults              
+    55.016843154     11,083,838,439      cycles                     (100.00%)
+    55.016843154    <not supported>      stalled-cycles-frontend  
+    55.016843154    <not supported>      stalled-cycles-backend   
+    55.016843154     16,568,170,963      instructions               (100.00%)
+    55.016843154      3,158,559,684      branches                   (100.00%)
+    55.016843154         13,873,529      branch-misses            
+    56.017114906        4001.240758      task-clock (msec)          (100.00%)
+    56.017114906              1,101      context-switches           (100.00%)
+    56.017114906                 26      cpu-migrations             (100.00%)
+    56.017114906              6,934      page-faults              
+    56.017114906     11,634,643,245      cycles                     (100.00%)
+    56.017114906    <not supported>      stalled-cycles-frontend  
+    56.017114906    <not supported>      stalled-cycles-backend   
+    56.017114906     16,881,629,447      instructions               (100.00%)
+    56.017114906      3,229,499,111      branches                   (100.00%)
+    56.017114906         10,588,080      branch-misses            
+    57.017414518        4001.273067      task-clock (msec)          (100.00%)
+    57.017414518                908      context-switches           (100.00%)
+    57.017414518                 25      cpu-migrations             (100.00%)
+    57.017414518             13,666      page-faults              
+    57.017414518     11,356,397,496      cycles                     (100.00%)
+    57.017414518    <not supported>      stalled-cycles-frontend  
+    57.017414518    <not supported>      stalled-cycles-backend   
+    57.017414518     16,143,312,436      instructions               (100.00%)
+    57.017414518      3,087,346,938      branches                   (100.00%)
+    57.017414518         11,598,115      branch-misses            
+    58.017689537        4001.181867      task-clock (msec)          (100.00%)
+    58.017689537                817      context-switches           (100.00%)
+    58.017689537                 30      cpu-migrations             (100.00%)
+    58.017689537                 28      page-faults              
+    58.017689537     11,158,757,414      cycles                     (100.00%)
+    58.017689537    <not supported>      stalled-cycles-frontend  
+    58.017689537    <not supported>      stalled-cycles-backend   
+    58.017689537     17,040,172,977      instructions               (100.00%)
+    58.017689537      3,259,127,632      branches                   (100.00%)
+    58.017689537         11,342,256      branch-misses            
+    59.017954725        4001.151710      task-clock (msec)          (100.00%)
+    59.017954725                847      context-switches           (100.00%)
+    59.017954725                 19      cpu-migrations             (100.00%)
+    59.017954725                 12      page-faults              
+    59.017954725     11,687,580,163      cycles                     (100.00%)
+    59.017954725    <not supported>      stalled-cycles-frontend  
+    59.017954725    <not supported>      stalled-cycles-backend   
+    59.017954725     17,375,843,956      instructions               (100.00%)
+    59.017954725      3,327,922,767      branches                   (100.00%)
+    59.017954725         10,703,110      branch-misses            
+    60.018219671        4001.135866      task-clock (msec)          (100.00%)
+    60.018219671                859      context-switches           (100.00%)
+    60.018219671                 26      cpu-migrations             (100.00%)
+    60.018219671                 46      page-faults              
+    60.018219671     11,690,887,510      cycles                     (100.00%)
+    60.018219671    <not supported>      stalled-cycles-frontend  
+    60.018219671    <not supported>      stalled-cycles-backend   
+    60.018219671     17,065,850,034      instructions               (100.00%)
+    60.018219671      3,265,222,277      branches                   (100.00%)
+    60.018219671         11,455,412      branch-misses            
+    61.018477262        4001.125898      task-clock (msec)          (100.00%)
+    61.018477262                826      context-switches           (100.00%)
+    61.018477262                 14      cpu-migrations             (100.00%)
+    61.018477262            281,604      page-faults              
+    61.018477262     11,498,226,110      cycles                     (100.00%)
+    61.018477262    <not supported>      stalled-cycles-frontend  
+    61.018477262    <not supported>      stalled-cycles-backend   
+    61.018477262     10,700,534,010      instructions               (100.00%)
+    61.018477262      2,001,654,679      branches                   (100.00%)
+    61.018477262          7,462,698      branch-misses            
+    62.018759154        4001.192868      task-clock (msec)          (100.00%)
+    62.018759154                914      context-switches           (100.00%)
+    62.018759154                 23      cpu-migrations             (100.00%)
+    62.018759154             61,802      page-faults              
+    62.018759154     11,375,674,682      cycles                     (100.00%)
+    62.018759154    <not supported>      stalled-cycles-frontend  
+    62.018759154    <not supported>      stalled-cycles-backend   
+    62.018759154     15,379,551,588      instructions               (100.00%)
+    62.018759154      2,939,219,520      branches                   (100.00%)
+    62.018759154          9,488,956      branch-misses            
+    63.019031789        4001.173556      task-clock (msec)          (100.00%)
+    63.019031789                825      context-switches           (100.00%)
+    63.019031789                 19      cpu-migrations             (100.00%)
+    63.019031789                  4      page-faults              
+    63.019031789     11,735,155,568      cycles                     (100.00%)
+    63.019031789    <not supported>      stalled-cycles-frontend  
+    63.019031789    <not supported>      stalled-cycles-backend   
+    63.019031789     17,489,368,258      instructions               (100.00%)
+    63.019031789      3,345,778,834      branches                   (100.00%)
+    63.019031789         10,983,528      branch-misses            
+    64.019307821        4001.187096      task-clock (msec)          (100.00%)
+    64.019307821                794      context-switches           (100.00%)
+    64.019307821                 22      cpu-migrations             (100.00%)
+    64.019307821                 20      page-faults              
+    64.019307821     11,519,023,063      cycles                     (100.00%)
+    64.019307821    <not supported>      stalled-cycles-frontend  
+    64.019307821    <not supported>      stalled-cycles-backend   
+    64.019307821     17,186,545,896      instructions               (100.00%)
+    64.019307821      3,288,409,899      branches                   (100.00%)
+    64.019307821         11,100,887      branch-misses            
+    65.019579903        4001.163665      task-clock (msec)          (100.00%)
+    65.019579903                810      context-switches           (100.00%)
+    65.019579903                 27      cpu-migrations             (100.00%)
+    65.019579903                  5      page-faults              
+    65.019579903     11,290,437,302      cycles                     (100.00%)
+    65.019579903    <not supported>      stalled-cycles-frontend  
+    65.019579903    <not supported>      stalled-cycles-backend   
+    65.019579903     16,844,646,027      instructions               (100.00%)
+    65.019579903      3,222,461,307      branches                   (100.00%)
+    65.019579903         10,529,582      branch-misses            
+    66.019861881        4001.198403      task-clock (msec)          (100.00%)
+    66.019861881                869      context-switches           (100.00%)
+    66.019861881                 24      cpu-migrations             (100.00%)
+    66.019861881             29,901      page-faults              
+    66.019861881     11,612,136,260      cycles                     (100.00%)
+    66.019861881    <not supported>      stalled-cycles-frontend  
+    66.019861881    <not supported>      stalled-cycles-backend   
+    66.019861881     15,715,182,388      instructions               (100.00%)
+    66.019861881      3,005,981,902      branches                   (100.00%)
+    66.019861881         10,098,122      branch-misses            
+    67.020130700        4001.173895      task-clock (msec)          (100.00%)
+    67.020130700                839      context-switches           (100.00%)
+    67.020130700                 23      cpu-migrations             (100.00%)
+    67.020130700                 11      page-faults              
+    67.020130700     11,716,409,216      cycles                     (100.00%)
+    67.020130700    <not supported>      stalled-cycles-frontend  
+    67.020130700    <not supported>      stalled-cycles-backend   
+    67.020130700     17,334,352,927      instructions               (100.00%)
+    67.020130700      3,315,593,825      branches                   (100.00%)
+    67.020130700         11,029,508      branch-misses            
+    68.020420365        4001.235071      task-clock (msec)          (100.00%)
+    68.020420365                797      context-switches           (100.00%)
+    68.020420365                 15      cpu-migrations             (100.00%)
+    68.020420365                  1      page-faults              
+    68.020420365     11,762,245,474      cycles                     (100.00%)
+    68.020420365    <not supported>      stalled-cycles-frontend  
+    68.020420365    <not supported>      stalled-cycles-backend   
+    68.020420365     17,173,430,592      instructions               (100.00%)
+    68.020420365      3,283,467,481      branches                   (100.00%)
+    68.020420365         10,442,096      branch-misses            
+    69.020695243        4001.178844      task-clock (msec)          (100.00%)
+    69.020695243                777      context-switches           (100.00%)
+    69.020695243                 11      cpu-migrations             (100.00%)
+    69.020695243                  0      page-faults              
+    69.020695243     11,764,577,199      cycles                     (100.00%)
+    69.020695243    <not supported>      stalled-cycles-frontend  
+    69.020695243    <not supported>      stalled-cycles-backend   
+    69.020695243     17,373,687,111      instructions               (100.00%)
+    69.020695243      3,328,020,136      branches                   (100.00%)
+    69.020695243         10,398,504      branch-misses            
+    70.021007468        4001.333406      task-clock (msec)          (100.00%)
+    70.021007468                842      context-switches           (100.00%)
+    70.021007468                 38      cpu-migrations             (100.00%)
+    70.021007468                115      page-faults              
+    70.021007468     11,714,509,980      cycles                     (100.00%)
+    70.021007468    <not supported>      stalled-cycles-frontend  
+    70.021007468    <not supported>      stalled-cycles-backend   
+    70.021007468     17,004,924,969      instructions               (100.00%)
+    70.021007468      3,251,113,404      branches                   (100.00%)
+    70.021007468         11,326,588      branch-misses            
+    71.021259170        4001.046382      task-clock (msec)          (100.00%)
+    71.021259170                808      context-switches           (100.00%)
+    71.021259170                  8      cpu-migrations             (100.00%)
+    71.021259170            320,076      page-faults              
+    71.021259170     11,779,782,081      cycles                     (100.00%)
+    71.021259170    <not supported>      stalled-cycles-frontend  
+    71.021259170    <not supported>      stalled-cycles-backend   
+    71.021259170     10,275,814,625      instructions               (100.00%)
+    71.021259170      1,919,315,366      branches                   (100.00%)
+    71.021259170          5,907,682      branch-misses            
+    72.021542882        4001.247584      task-clock (msec)          (100.00%)
+    72.021542882                941      context-switches           (100.00%)
+    72.021542882                 35      cpu-migrations             (100.00%)
+    72.021542882             56,981      page-faults              
+    72.021542882     11,650,884,942      cycles                     (100.00%)
+    72.021542882    <not supported>      stalled-cycles-frontend  
+    72.021542882    <not supported>      stalled-cycles-backend   
+    72.021542882     15,227,945,693      instructions               (100.00%)
+    72.021542882      2,904,584,101      branches                   (100.00%)
+    72.021542882         10,809,406      branch-misses            
+    73.021814077        4001.179985      task-clock (msec)          (100.00%)
+    73.021814077                819      context-switches           (100.00%)
+    73.021814077                 19      cpu-migrations             (100.00%)
+    73.021814077                 14      page-faults              
+    73.021814077     11,720,924,766      cycles                     (100.00%)
+    73.021814077    <not supported>      stalled-cycles-frontend  
+    73.021814077    <not supported>      stalled-cycles-backend   
+    73.021814077     17,150,240,010      instructions               (100.00%)
+    73.021814077      3,279,545,699      branches                   (100.00%)
+    73.021814077         10,914,665      branch-misses            
+    74.022099122        4001.226092      task-clock (msec)          (100.00%)
+    74.022099122                830      context-switches           (100.00%)
+    74.022099122                 24      cpu-migrations             (100.00%)
+    74.022099122                  7      page-faults              
+    74.022099122     11,490,237,266      cycles                     (100.00%)
+    74.022099122    <not supported>      stalled-cycles-frontend  
+    74.022099122    <not supported>      stalled-cycles-backend   
+    74.022099122     17,092,970,768      instructions               (100.00%)
+    74.022099122      3,273,421,358      branches                   (100.00%)
+    74.022099122         10,675,568      branch-misses            
+    75.022371277        4001.158795      task-clock (msec)          (100.00%)
+    75.022371277                816      context-switches           (100.00%)
+    75.022371277                 20      cpu-migrations             (100.00%)
+    75.022371277                  6      page-faults              
+    75.022371277     11,674,591,412      cycles                     (100.00%)
+    75.022371277    <not supported>      stalled-cycles-frontend  
+    75.022371277    <not supported>      stalled-cycles-backend   
+    75.022371277     16,964,165,632      instructions               (100.00%)
+    75.022371277      3,242,306,734      branches                   (100.00%)
+    75.022371277         10,935,554      branch-misses            
+#           time             counts unit events
+    76.022646049        4001.180186      task-clock (msec)          (100.00%)
+    76.022646049                857      context-switches           (100.00%)
+    76.022646049                 28      cpu-migrations             (100.00%)
+    76.022646049              6,074      page-faults              
+    76.022646049     11,612,901,427      cycles                     (100.00%)
+    76.022646049    <not supported>      stalled-cycles-frontend  
+    76.022646049    <not supported>      stalled-cycles-backend   
+    76.022646049     16,720,299,588      instructions               (100.00%)
+    76.022646049      3,198,130,979      branches                   (100.00%)
+    76.022646049         12,111,589      branch-misses            
+    77.022916334        4001.178382      task-clock (msec)          (100.00%)
+    77.022916334                901      context-switches           (100.00%)
+    77.022916334                 25      cpu-migrations             (100.00%)
+    77.022916334             19,355      page-faults              
+    77.022916334     11,567,299,358      cycles                     (100.00%)
+    77.022916334    <not supported>      stalled-cycles-frontend  
+    77.022916334    <not supported>      stalled-cycles-backend   
+    77.022916334     16,287,389,332      instructions               (100.00%)
+    77.022916334      3,114,457,181      branches                   (100.00%)
+    77.022916334         10,637,996      branch-misses            
+    78.023190005        4001.173412      task-clock (msec)          (100.00%)
+    78.023190005                835      context-switches           (100.00%)
+    78.023190005                 25      cpu-migrations             (100.00%)
+    78.023190005                 30      page-faults              
+    78.023190005     11,646,528,991      cycles                     (100.00%)
+    78.023190005    <not supported>      stalled-cycles-frontend  
+    78.023190005    <not supported>      stalled-cycles-backend   
+    78.023190005     17,224,433,892      instructions               (100.00%)
+    78.023190005      3,294,991,093      branches                   (100.00%)
+    78.023190005         11,248,594      branch-misses            
+    79.023515697        4001.379260      task-clock (msec)          (100.00%)
+    79.023515697                841      context-switches           (100.00%)
+    79.023515697                 28      cpu-migrations             (100.00%)
+    79.023515697                 30      page-faults              
+    79.023515697     11,679,860,887      cycles                     (100.00%)
+    79.023515697    <not supported>      stalled-cycles-frontend  
+    79.023515697    <not supported>      stalled-cycles-backend   
+    79.023515697     17,109,977,579      instructions               (100.00%)
+    79.023515697      3,275,830,808      branches                   (100.00%)
+    79.023515697         10,739,572      branch-misses            
+    80.023786509        4001.170814      task-clock (msec)          (100.00%)
+    80.023786509                825      context-switches           (100.00%)
+    80.023786509                 20      cpu-migrations             (100.00%)
+    80.023786509                 20      page-faults              
+    80.023786509     11,732,986,022      cycles                     (100.00%)
+    80.023786509    <not supported>      stalled-cycles-frontend  
+    80.023786509    <not supported>      stalled-cycles-backend   
+    80.023786509     17,184,003,611      instructions               (100.00%)
+    80.023786509      3,287,290,518      branches                   (100.00%)
+    80.023786509         10,514,135      branch-misses            
+    81.024049667        4001.135634      task-clock (msec)          (100.00%)
+    81.024049667                842      context-switches           (100.00%)
+    81.024049667                 23      cpu-migrations             (100.00%)
+    81.024049667                 12      page-faults              
+    81.024049667     11,719,884,250      cycles                     (100.00%)
+    81.024049667    <not supported>      stalled-cycles-frontend  
+    81.024049667    <not supported>      stalled-cycles-backend   
+    81.024049667     16,879,720,917      instructions               (100.00%)
+    81.024049667      3,228,506,586      branches                   (100.00%)
+    81.024049667         10,844,775      branch-misses            
+    82.024327595        4001.175610      task-clock (msec)          (100.00%)
+    82.024327595                879      context-switches           (100.00%)
+    82.024327595                 26      cpu-migrations             (100.00%)
+    82.024327595            170,459      page-faults              
+    82.024327595     11,437,219,845      cycles                     (100.00%)
+    82.024327595    <not supported>      stalled-cycles-frontend  
+    82.024327595    <not supported>      stalled-cycles-backend   
+    82.024327595     12,683,920,007      instructions               (100.00%)
+    82.024327595      2,404,082,428      branches                   (100.00%)
+    82.024327595          7,825,415      branch-misses            
+    83.024623610        4001.260119      task-clock (msec)          (100.00%)
+    83.024623610                821      context-switches           (100.00%)
+    83.024623610                 18      cpu-migrations             (100.00%)
+    83.024623610                  4      page-faults              
+    83.024623610     11,718,052,657      cycles                     (100.00%)
+    83.024623610    <not supported>      stalled-cycles-frontend  
+    83.024623610    <not supported>      stalled-cycles-backend   
+    83.024623610     17,489,822,173      instructions               (100.00%)
+    83.024623610      3,349,978,271      branches                   (100.00%)
+    83.024623610         10,580,512      branch-misses            
+    84.024895729        4001.184278      task-clock (msec)          (100.00%)
+    84.024895729                809      context-switches           (100.00%)
+    84.024895729                 21      cpu-migrations             (100.00%)
+    84.024895729                  9      page-faults              
+    84.024895729     11,722,986,931      cycles                     (100.00%)
+    84.024895729    <not supported>      stalled-cycles-frontend  
+    84.024895729    <not supported>      stalled-cycles-backend   
+    84.024895729     17,280,641,761      instructions               (100.00%)
+    84.024895729      3,302,161,624      branches                   (100.00%)
+    84.024895729         11,313,871      branch-misses            
+    85.025202610        4001.239281      task-clock (msec)          (100.00%)
+    85.025202610                826      context-switches           (100.00%)
+    85.025202610                 23      cpu-migrations             (100.00%)
+    85.025202610                 10      page-faults              
+    85.025202610     11,721,838,061      cycles                     (100.00%)
+    85.025202610    <not supported>      stalled-cycles-frontend  
+    85.025202610    <not supported>      stalled-cycles-backend   
+    85.025202610     17,221,619,760      instructions               (100.00%)
+    85.025202610      3,293,033,235      branches                   (100.00%)
+    85.025202610         10,629,950      branch-misses            
+    86.025477982        4001.252828      task-clock (msec)          (100.00%)
+    86.025477982                772      context-switches           (100.00%)
+    86.025477982                  9      cpu-migrations             (100.00%)
+    86.025477982                  0      page-faults              
+    86.025477982     11,770,255,579      cycles                     (100.00%)
+    86.025477982    <not supported>      stalled-cycles-frontend  
+    86.025477982    <not supported>      stalled-cycles-backend   
+    86.025477982     17,174,165,290      instructions               (100.00%)
+    86.025477982      3,290,984,614      branches                   (100.00%)
+    86.025477982         10,287,822      branch-misses            
+    87.025745270        4001.137489      task-clock (msec)          (100.00%)
+    87.025745270                866      context-switches           (100.00%)
+    87.025745270                 37      cpu-migrations             (100.00%)
+    87.025745270             16,887      page-faults              
+    87.025745270     11,297,304,561      cycles                     (100.00%)
+    87.025745270    <not supported>      stalled-cycles-frontend  
+    87.025745270    <not supported>      stalled-cycles-backend   
+    87.025745270     16,253,095,826      instructions               (100.00%)
+    87.025745270      3,111,527,404      branches                   (100.00%)
+    87.025745270         11,021,597      branch-misses            
+    88.026017078        4001.191931      task-clock (msec)          (100.00%)
+    88.026017078                862      context-switches           (100.00%)
+    88.026017078                 35      cpu-migrations             (100.00%)
+    88.026017078              3,113      page-faults              
+    88.026017078     11,519,104,168      cycles                     (100.00%)
+    88.026017078    <not supported>      stalled-cycles-frontend  
+    88.026017078    <not supported>      stalled-cycles-backend   
+    88.026017078     16,971,967,398      instructions               (100.00%)
+    88.026017078      3,245,466,928      branches                   (100.00%)
+    88.026017078         11,246,473      branch-misses            
+    89.026286153        4001.157131      task-clock (msec)          (100.00%)
+    89.026286153                783      context-switches           (100.00%)
+    89.026286153                  7      cpu-migrations             (100.00%)
+    89.026286153                  6      page-faults              
+    89.026286153     11,737,498,039      cycles                     (100.00%)
+    89.026286153    <not supported>      stalled-cycles-frontend  
+    89.026286153    <not supported>      stalled-cycles-backend   
+    89.026286153     17,418,226,012      instructions               (100.00%)
+    89.026286153      3,336,910,888      branches                   (100.00%)
+    89.026286153         10,143,431      branch-misses            
+    90.026576948        4001.237966      task-clock (msec)          (100.00%)
+    90.026576948                793      context-switches           (100.00%)
+    90.026576948                 20      cpu-migrations             (100.00%)
+    90.026576948                  4      page-faults              
+    90.026576948     11,723,391,076      cycles                     (100.00%)
+    90.026576948    <not supported>      stalled-cycles-frontend  
+    90.026576948    <not supported>      stalled-cycles-backend   
+    90.026576948     17,323,360,276      instructions               (100.00%)
+    90.026576948      3,311,484,240      branches                   (100.00%)
+    90.026576948         11,195,720      branch-misses            
+    91.026862140        4001.184452      task-clock (msec)          (100.00%)
+    91.026862140                963      context-switches           (100.00%)
+    91.026862140                 44      cpu-migrations             (100.00%)
+    91.026862140                 40      page-faults              
+    91.026862140     11,624,974,574      cycles                     (100.00%)
+    91.026862140    <not supported>      stalled-cycles-frontend  
+    91.026862140    <not supported>      stalled-cycles-backend   
+    91.026862140     16,971,344,410      instructions               (100.00%)
+    91.026862140      3,246,366,002      branches                   (100.00%)
+    91.026862140         11,870,260      branch-misses            
+    92.027141225        4001.240025      task-clock (msec)          (100.00%)
+    92.027141225                833      context-switches           (100.00%)
+    92.027141225                 11      cpu-migrations             (100.00%)
+    92.027141225                 62      page-faults              
+    92.027141225     11,764,309,402      cycles                     (100.00%)
+    92.027141225    <not supported>      stalled-cycles-frontend  
+    92.027141225    <not supported>      stalled-cycles-backend   
+    92.027141225     17,132,980,677      instructions               (100.00%)
+    92.027141225      3,280,321,696      branches                   (100.00%)
+    92.027141225         10,466,901      branch-misses            
+    93.027414166        4001.162516      task-clock (msec)          (100.00%)
+    93.027414166                861      context-switches           (100.00%)
+    93.027414166                 28      cpu-migrations             (100.00%)
+    93.027414166              7,940      page-faults              
+    93.027414166     11,653,290,116      cycles                     (100.00%)
+    93.027414166    <not supported>      stalled-cycles-frontend  
+    93.027414166    <not supported>      stalled-cycles-backend   
+    93.027414166     16,912,880,960      instructions               (100.00%)
+    93.027414166      3,242,910,393      branches                   (100.00%)
+    93.027414166         10,814,969      branch-misses            
+    94.027678858        4001.146722      task-clock (msec)          (100.00%)
+    94.027678858                857      context-switches           (100.00%)
+    94.027678858                 27      cpu-migrations             (100.00%)
+    94.027678858                  8      page-faults              
+    94.027678858     11,685,477,471      cycles                     (100.00%)
+    94.027678858    <not supported>      stalled-cycles-frontend  
+    94.027678858    <not supported>      stalled-cycles-backend   
+    94.027678858     17,201,642,725      instructions               (100.00%)
+    94.027678858      3,287,744,310      branches                   (100.00%)
+    94.027678858         11,203,987      branch-misses            
+    95.027963706        4001.211022      task-clock (msec)          (100.00%)
+    95.027963706                830      context-switches           (100.00%)
+    95.027963706                 26      cpu-migrations             (100.00%)
+    95.027963706                  6      page-faults              
+    95.027963706     11,690,353,768      cycles                     (100.00%)
+    95.027963706    <not supported>      stalled-cycles-frontend  
+    95.027963706    <not supported>      stalled-cycles-backend   
+    95.027963706     17,245,279,589      instructions               (100.00%)
+    95.027963706      3,303,167,627      branches                   (100.00%)
+    95.027963706         10,293,920      branch-misses            
+    96.028255264        4001.232763      task-clock (msec)          (100.00%)
+    96.028255264                790      context-switches           (100.00%)
+    96.028255264                 13      cpu-migrations             (100.00%)
+    96.028255264                  1      page-faults              
+    96.028255264     11,766,461,554      cycles                     (100.00%)
+    96.028255264    <not supported>      stalled-cycles-frontend  
+    96.028255264    <not supported>      stalled-cycles-backend   
+    96.028255264     17,136,684,281      instructions               (100.00%)
+    96.028255264      3,278,371,490      branches                   (100.00%)
+    96.028255264         10,751,679      branch-misses            
+    97.028545366        4001.244106      task-clock (msec)          (100.00%)
+    97.028545366                885      context-switches           (100.00%)
+    97.028545366                 29      cpu-migrations             (100.00%)
+    97.028545366                 33      page-faults              
+    97.028545366     11,692,832,657      cycles                     (100.00%)
+    97.028545366    <not supported>      stalled-cycles-frontend  
+    97.028545366    <not supported>      stalled-cycles-backend   
+    97.028545366     17,087,576,743      instructions               (100.00%)
+    97.028545366      3,269,637,256      branches                   (100.00%)
+    97.028545366         10,970,791      branch-misses            
+    98.028834267        4001.253905      task-clock (msec)          (100.00%)
+    98.028834267                981      context-switches           (100.00%)
+    98.028834267                 38      cpu-migrations             (100.00%)
+    98.028834267             12,703      page-faults              
+    98.028834267     11,612,240,020      cycles                     (100.00%)
+    98.028834267    <not supported>      stalled-cycles-frontend  
+    98.028834267    <not supported>      stalled-cycles-backend   
+    98.028834267     16,526,301,547      instructions               (100.00%)
+    98.028834267      3,159,624,430      branches                   (100.00%)
+    98.028834267         11,761,871      branch-misses            
+    99.029104319        4001.167099      task-clock (msec)          (100.00%)
+    99.029104319                790      context-switches           (100.00%)
+    99.029104319                  8      cpu-migrations             (100.00%)
+    99.029104319                  7      page-faults              
+    99.029104319     11,669,507,515      cycles                     (100.00%)
+    99.029104319    <not supported>      stalled-cycles-frontend  
+    99.029104319    <not supported>      stalled-cycles-backend   
+    99.029104319     17,420,819,035      instructions               (100.00%)
+    99.029104319      3,339,628,789      branches                   (100.00%)
+    99.029104319         10,105,433      branch-misses            
+   100.029403870        4001.277363      task-clock (msec)          (100.00%)
+   100.029403870                790      context-switches           (100.00%)
+   100.029403870                 31      cpu-migrations             (100.00%)
+   100.029403870                 11      page-faults              
+   100.029403870     10,894,614,978      cycles                     (100.00%)
+   100.029403870    <not supported>      stalled-cycles-frontend  
+   100.029403870    <not supported>      stalled-cycles-backend   
+   100.029403870     16,900,764,905      instructions               (100.00%)
+   100.029403870      3,234,869,718      branches                   (100.00%)
+   100.029403870         10,745,933      branch-misses            
+#           time             counts unit events
+   101.029705265        4001.287350      task-clock (msec)          (100.00%)
+   101.029705265                995      context-switches           (100.00%)
+   101.029705265                 28      cpu-migrations             (100.00%)
+   101.029705265                 54      page-faults              
+   101.029705265     11,740,397,273      cycles                     (100.00%)
+   101.029705265    <not supported>      stalled-cycles-frontend  
+   101.029705265    <not supported>      stalled-cycles-backend   
+   101.029705265     17,006,034,997      instructions               (100.00%)
+   101.029705265      3,249,022,037      branches                   (100.00%)
+   101.029705265         11,741,521      branch-misses            
+   102.029973387        4001.160779      task-clock (msec)          (100.00%)
+   102.029973387                835      context-switches           (100.00%)
+   102.029973387                 21      cpu-migrations             (100.00%)
+   102.029973387                 57      page-faults              
+   102.029973387     11,732,016,801      cycles                     (100.00%)
+   102.029973387    <not supported>      stalled-cycles-frontend  
+   102.029973387    <not supported>      stalled-cycles-backend   
+   102.029973387     16,985,960,931      instructions               (100.00%)
+   102.029973387      3,254,063,326      branches                   (100.00%)
+   102.029973387         10,441,280      branch-misses            
+   103.030230675        4001.100723      task-clock (msec)          (100.00%)
+   103.030230675              1,040      context-switches           (100.00%)
+   103.030230675                 29      cpu-migrations             (100.00%)
+   103.030230675              7,482      page-faults              
+   103.030230675     11,536,685,568      cycles                     (100.00%)
+   103.030230675    <not supported>      stalled-cycles-frontend  
+   103.030230675    <not supported>      stalled-cycles-backend   
+   103.030230675     16,777,856,675      instructions               (100.00%)
+   103.030230675      3,215,951,559      branches                   (100.00%)
+   103.030230675         10,934,145      branch-misses            
+   104.030505056        4001.182913      task-clock (msec)          (100.00%)
+   104.030505056                819      context-switches           (100.00%)
+   104.030505056                 21      cpu-migrations             (100.00%)
+   104.030505056                 34      page-faults              
+   104.030505056     11,682,401,892      cycles                     (100.00%)
+   104.030505056    <not supported>      stalled-cycles-frontend  
+   104.030505056    <not supported>      stalled-cycles-backend   
+   104.030505056     17,279,513,719      instructions               (100.00%)
+   104.030505056      3,301,845,286      branches                   (100.00%)
+   104.030505056         11,144,735      branch-misses            
+   105.030772321        4001.145538      task-clock (msec)          (100.00%)
+   105.030772321                799      context-switches           (100.00%)
+   105.030772321                 17      cpu-migrations             (100.00%)
+   105.030772321                  0      page-faults              
+   105.030772321     11,734,130,574      cycles                     (100.00%)
+   105.030772321    <not supported>      stalled-cycles-frontend  
+   105.030772321    <not supported>      stalled-cycles-backend   
+   105.030772321     17,177,668,481      instructions               (100.00%)
+   105.030772321      3,287,172,444      branches                   (100.00%)
+   105.030772321         10,377,047      branch-misses            
+   106.031045582        4001.177686      task-clock (msec)          (100.00%)
+   106.031045582                869      context-switches           (100.00%)
+   106.031045582                 14      cpu-migrations             (100.00%)
+   106.031045582                 26      page-faults              
+   106.031045582     11,711,140,997      cycles                     (100.00%)
+   106.031045582    <not supported>      stalled-cycles-frontend  
+   106.031045582    <not supported>      stalled-cycles-backend   
+   106.031045582     17,324,521,165      instructions               (100.00%)
+   106.031045582      3,318,202,232      branches                   (100.00%)
+   106.031045582         10,719,944      branch-misses            
+   107.031337511        4001.255498      task-clock (msec)          (100.00%)
+   107.031337511                813      context-switches           (100.00%)
+   107.031337511                 22      cpu-migrations             (100.00%)
+   107.031337511                  2      page-faults              
+   107.031337511     11,727,741,487      cycles                     (100.00%)
+   107.031337511    <not supported>      stalled-cycles-frontend  
+   107.031337511    <not supported>      stalled-cycles-backend   
+   107.031337511     17,203,375,851      instructions               (100.00%)
+   107.031337511      3,290,590,746      branches                   (100.00%)
+   107.031337511         10,888,131      branch-misses            
+   108.031612765        4001.184333      task-clock (msec)          (100.00%)
+   108.031612765                897      context-switches           (100.00%)
+   108.031612765                 30      cpu-migrations             (100.00%)
+   108.031612765                957      page-faults              
+   108.031612765     11,492,247,510      cycles                     (100.00%)
+   108.031612765    <not supported>      stalled-cycles-frontend  
+   108.031612765    <not supported>      stalled-cycles-backend   
+   108.031612765     16,740,958,781      instructions               (100.00%)
+   108.031612765      3,204,097,244      branches                   (100.00%)
+   108.031612765         11,252,234      branch-misses            
+   109.031905240        4001.206953      task-clock (msec)          (100.00%)
+   109.031905240                780      context-switches           (100.00%)
+   109.031905240                  9      cpu-migrations             (100.00%)
+   109.031905240                  5      page-faults              
+   109.031905240     11,742,051,391      cycles                     (100.00%)
+   109.031905240    <not supported>      stalled-cycles-frontend  
+   109.031905240    <not supported>      stalled-cycles-backend   
+   109.031905240     17,572,013,430      instructions               (100.00%)
+   109.031905240      3,369,930,963      branches                   (100.00%)
+   109.031905240         10,250,797      branch-misses            
+   110.032164118        4001.158632      task-clock (msec)          (100.00%)
+   110.032164118                806      context-switches           (100.00%)
+   110.032164118                 16      cpu-migrations             (100.00%)
+   110.032164118                  5      page-faults              
+   110.032164118     11,708,134,138      cycles                     (100.00%)
+   110.032164118    <not supported>      stalled-cycles-frontend  
+   110.032164118    <not supported>      stalled-cycles-backend   
+   110.032164118     17,276,397,041      instructions               (100.00%)
+   110.032164118      3,302,768,449      branches                   (100.00%)
+   110.032164118         10,741,656      branch-misses            
+   111.032444489        4001.200394      task-clock (msec)          (100.00%)
+   111.032444489                806      context-switches           (100.00%)
+   111.032444489                 39      cpu-migrations             (100.00%)
+   111.032444489                 11      page-faults              
+   111.032444489     10,285,808,677      cycles                     (100.00%)
+   111.032444489    <not supported>      stalled-cycles-frontend  
+   111.032444489    <not supported>      stalled-cycles-backend   
+   111.032444489     16,356,666,406      instructions               (100.00%)
+   111.032444489      3,129,180,585      branches                   (100.00%)
+   111.032444489         10,698,319      branch-misses            
+   112.032786685        4001.259468      task-clock (msec)          (100.00%)
+   112.032786685                778      context-switches           (100.00%)
+   112.032786685                  9      cpu-migrations             (100.00%)
+   112.032786685                  4      page-faults              
+   112.032786685     11,769,326,285      cycles                     (100.00%)
+   112.032786685    <not supported>      stalled-cycles-frontend  
+   112.032786685    <not supported>      stalled-cycles-backend   
+   112.032786685     17,330,357,954      instructions               (100.00%)
+   112.032786685      3,318,443,441      branches                   (100.00%)
+   112.032786685         10,286,235      branch-misses            
+   113.033057382        4001.333882      task-clock (msec)          (100.00%)
+   113.033057382                811      context-switches           (100.00%)
+   113.033057382                 27      cpu-migrations             (100.00%)
+   113.033057382                  0      page-faults              
+   113.033057382     11,727,669,311      cycles                     (100.00%)
+   113.033057382    <not supported>      stalled-cycles-frontend  
+   113.033057382    <not supported>      stalled-cycles-backend   
+   113.033057382     16,903,760,709      instructions               (100.00%)
+   113.033057382      3,231,125,334      branches                   (100.00%)
+   113.033057382         10,786,407      branch-misses            
+   114.033339791        4001.243154      task-clock (msec)          (100.00%)
+   114.033339791                887      context-switches           (100.00%)
+   114.033339791                 25      cpu-migrations             (100.00%)
+   114.033339791              1,422      page-faults              
+   114.033339791     11,625,240,854      cycles                     (100.00%)
+   114.033339791    <not supported>      stalled-cycles-frontend  
+   114.033339791    <not supported>      stalled-cycles-backend   
+   114.033339791     16,977,786,750      instructions               (100.00%)
+   114.033339791      3,248,807,705      branches                   (100.00%)
+   114.033339791         10,784,238      branch-misses            
+   115.033607465        4001.148416      task-clock (msec)          (100.00%)
+   115.033607465                782      context-switches           (100.00%)
+   115.033607465                 14      cpu-migrations             (100.00%)
+   115.033607465                  0      page-faults              
+   115.033607465     11,772,629,868      cycles                     (100.00%)
+   115.033607465    <not supported>      stalled-cycles-frontend  
+   115.033607465    <not supported>      stalled-cycles-backend   
+   115.033607465     17,366,304,201      instructions               (100.00%)
+   115.033607465      3,325,826,025      branches                   (100.00%)
+   115.033607465         10,327,354      branch-misses            
+   116.033883350        4001.131110      task-clock (msec)          (100.00%)
+   116.033883350                709      context-switches           (100.00%)
+   116.033883350                 25      cpu-migrations             (100.00%)
+   116.033883350                 16      page-faults              
+   116.033883350      8,701,466,527      cycles                     (100.00%)
+   116.033883350    <not supported>      stalled-cycles-frontend  
+   116.033883350    <not supported>      stalled-cycles-backend   
+   116.033883350     15,270,969,047      instructions               (100.00%)
+   116.033883350      2,930,908,931      branches                   (100.00%)
+   116.033883350          9,573,264      branch-misses            
+   117.034139081        4001.168598      task-clock (msec)          (100.00%)
+   117.034139081              4,010      context-switches           (100.00%)
+   117.034139081                527      cpu-migrations             (100.00%)
+   117.034139081              3,409      page-faults              
+   117.034139081      9,644,044,413      cycles                     (100.00%)
+   117.034139081    <not supported>      stalled-cycles-frontend  
+   117.034139081    <not supported>      stalled-cycles-backend   
+   117.034139081      8,169,780,885      instructions               (100.00%)
+   117.034139081      1,573,467,149      branches                   (100.00%)
+   117.034139081         38,891,367      branch-misses            
+   118.034413949        4001.163794      task-clock (msec)          (100.00%)
+   118.034413949              3,714      context-switches           (100.00%)
+   118.034413949                482      cpu-migrations             (100.00%)
+   118.034413949              7,113      page-faults              
+   118.034413949     11,181,346,738      cycles                     (100.00%)
+   118.034413949    <not supported>      stalled-cycles-frontend  
+   118.034413949    <not supported>      stalled-cycles-backend   
+   118.034413949      9,009,811,437      instructions               (100.00%)
+   118.034413949      1,718,716,511      branches                   (100.00%)
+   118.034413949         41,495,858      branch-misses            
+   119.034662327        4000.960379      task-clock (msec)          (100.00%)
+   119.034662327              4,201      context-switches           (100.00%)
+   119.034662327                632      cpu-migrations             (100.00%)
+   119.034662327              8,007      page-faults              
+   119.034662327     10,480,706,388      cycles                     (100.00%)
+   119.034662327    <not supported>      stalled-cycles-frontend  
+   119.034662327    <not supported>      stalled-cycles-backend   
+   119.034662327      8,319,330,166      instructions               (100.00%)
+   119.034662327      1,674,113,999      branches                   (100.00%)
+   119.034662327         35,790,568      branch-misses            
+   120.034925518        4001.240266      task-clock (msec)          (100.00%)
+   120.034925518              4,103      context-switches           (100.00%)
+   120.034925518                580      cpu-migrations             (100.00%)
+   120.034925518              9,020      page-faults              
+   120.034925518     11,139,193,084      cycles                     (100.00%)
+   120.034925518    <not supported>      stalled-cycles-frontend  
+   120.034925518    <not supported>      stalled-cycles-backend   
+   120.034925518      8,600,948,156      instructions               (100.00%)
+   120.034925518      1,661,695,095      branches                   (100.00%)
+   120.034925518         37,332,344      branch-misses            
+   121.035189839        4001.141133      task-clock (msec)          (100.00%)
+   121.035189839              5,467      context-switches           (100.00%)
+   121.035189839                713      cpu-migrations             (100.00%)
+   121.035189839             12,300      page-faults              
+   121.035189839     10,864,617,662      cycles                     (100.00%)
+   121.035189839    <not supported>      stalled-cycles-frontend  
+   121.035189839    <not supported>      stalled-cycles-backend   
+   121.035189839      8,042,169,437      instructions               (100.00%)
+   121.035189839      1,518,282,071      branches                   (100.00%)
+   121.035189839         36,202,662      branch-misses            
+   122.035572224        4001.357279      task-clock (msec)          (100.00%)
+   122.035572224              4,011      context-switches           (100.00%)
+   122.035572224                577      cpu-migrations             (100.00%)
+   122.035572224              7,214      page-faults              
+   122.035572224      7,229,181,832      cycles                     (100.00%)
+   122.035572224    <not supported>      stalled-cycles-frontend  
+   122.035572224    <not supported>      stalled-cycles-backend   
+   122.035572224      5,665,311,079      instructions               (100.00%)
+   122.035572224      1,106,858,734      branches                   (100.00%)
+   122.035572224         23,293,483      branch-misses            
+   122.477451716        1767.558047      task-clock (msec)          (100.00%)
+   122.477451716                147      context-switches           (100.00%)
+   122.477451716                 22      cpu-migrations             (100.00%)
+   122.477451716                  1      page-faults              
+   122.477451716      1,201,153,513      cycles                     (100.00%)
+   122.477451716    <not supported>      stalled-cycles-frontend  
+   122.477451716    <not supported>      stalled-cycles-backend   
+   122.477451716      1,578,221,160      instructions               (100.00%)
+   122.477451716        246,958,298      branches                   (100.00%)
+   122.477451716            985,808      branch-misses            

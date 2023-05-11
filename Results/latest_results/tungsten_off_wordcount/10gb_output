@@ -1,0 +1,27 @@
+Benchmark - wordcount ; Tungsten - off ; Input Size - 10gb
++----------+-------+
+|      word|  count|
++----------+-------+
+|   familia|  39566|
+|       art| 228280|
+|  tortured|  40917|
+|     poppy|  72633|
+| involving| 357040|
+|    djelfa| 113115|
+| standards|  51164|
+|    waters|  34353|
+|    poetry|  56188|
+|      hope|  82612|
+|    tonnes|  52945|
+|indigenous|  56046|
+|    bazaar|  32790|
+|    travel| 121222|
+| panionios|  14886|
+|     turks| 165205|
+| connected|  84604|
+|      some|1554481|
+| traveling|  25633|
+|commanders| 204844|
++----------+-------+
+only showing top 20 rows
+

@@ -1,0 +1,95 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	19.406329
+1	Clockticks	184493400000
+1	Instructions Retired	229002900000
+1	CPI Rate	0.805638
+1	MUX Reliability	0.986067
+1	Front-End Bound	25.8
+2	Front-End Latency	13.9
+3	ICache Misses	1.9
+3	ITLB Overhead	0.6
+3	Branch Resteers	3.4
+4	Mispredicts Resteers	2.6
+4	Clears Resteers	0.0
+4	Unknown Branches	0.7
+3	DSB Switches	3.8
+3	Length Changing Prefixes	0.0
+3	MS Switches	1.4
+2	Front-End Bandwidth	11.9
+3	Front-End Bandwidth MITE	18.9
+3	Front-End Bandwidth DSB	17.3
+3	Front-End Bandwidth LSD	1.1
+3	(Info) DSB Coverage	58.4
+3	(Info) LSD Coverage	9.3
+1	Bad Speculation	6.4
+2	Branch Mispredict	6.4
+2	Machine Clears	0.0
+1	Back-End Bound	13.0
+2	Memory Bound	7.2
+3	L1 Bound	14.6
+4	DTLB Overhead	4.2
+4	Loads Blocked by Store Forwarding	0.1
+4	Lock Latency	0.0
+4	Split Loads	0.0
+4	4K Aliasing	3.4
+4	FB Full	30.3
+3	L2 Bound	1.5
+3	L3 Bound	4.8
+4	Contested Accesses	2.3
+4	Data Sharing	0.0
+4	L3 Latency	15.1
+4	SQ Full	2.2
+3	DRAM Bound	6.2
+4	Memory Bandwidth	45.6
+4	Memory Latency	49.1
+5	Local DRAM	10.8
+5	Remote DRAM	0.0
+5	Remote Cache	0.0
+3	Store Bound	6.1
+4	Store Latency	29.4
+5	Store L2	1.8
+5	Store L3	5.7
+5	Store Memory	21.9
+4	False Sharing	0.2
+4	Split Stores	0.3
+4	DTLB Store Overhead	0.6
+2	Core Bound	5.7
+3	Divider	2.0
+3	Port Utilization	26.4
+4	Cycles of 0 Ports Utilized	77.3
+4	Cycles of 1 Port Utilized	14.7
+4	Cycles of 2 Ports Utilized	19.0
+4	Cycles of 3+ Ports Utilized	43.6
+5	Port 0	27.1
+5	Port 1	25.5
+5	Port 2	41.8
+5	Port 3	42.8
+5	Port 4	29.5
+5	Port 5	26.0
+5	Port 6	45.7
+5	Port 7	18.2
+4	Vector Capacity Usage (FPU)	25.0
+1	Retiring	54.8
+2	General Retirement	53.6
+3	FP Arithmetic	0.1
+4	FP x87	0.0
+4	FP Scalar	0.1
+4	FP Vector	0.0
+3	Other	99.9
+2	Microcode Sequencer	1.3
+3	Assists	0.0
+1	Total Thread Count	84
+1	Paused Time	0.0
+0	Collection and Platform Info	
+1	Application Command Line	sudo "numactl" "--physcpubind=2,3,18,19" "--membind=0" "sudo" "/usr/local/spark/bin/spark-submit" "/home/hduser/Tungsten/Benchmark/samikshabench.jar" "off" "basicwordcount" "../wc_inputs/1gb" 
+1	User Name	root
+1	Operating System	4.4.0-64-generic NAME="Ubuntu" VERSION="16.04.3 LTS (Xenial Xerus)" ID=ubuntu ID_LIKE=debian PRETTY_NAME="Ubuntu 16.04.3 LTS" VERSION_ID="16.04" HOME_URL="http://www.ubuntu.com/" SUPPORT_URL="http://help.ubuntu.com/" BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/" VERSION_CODENAME=xenial UBUNTU_CODENAME=xenial
+1	Computer Name	ubuntu
+1	Result Size	118379049
+1	Collection start time	00:19:20 18/12/2018 UTC
+1	Collection stop time	00:19:39 18/12/2018 UTC
+1	Collector Type	Event-based sampling driver
+1	CPU	
+2	Name	Intel(R) Xeon(R) Processor code named Broadwell
+2	Frequency	2099998559
+2	Logical CPU Count	32

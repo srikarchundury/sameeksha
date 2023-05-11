@@ -1,0 +1,164 @@
+tungsten_off_basicwordcount
+
+01gb_pintrace.txt	10gb_pintrace.txt	20gb_pintrace.txt	30gb_pintrace.txt	40gb_pintrace.txt	50gb_pintrace.txt
+*total	*total	*total	*total	*total	*total
+*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE
+MOV	MOV	MOV	MOV	MOV	MOV
+*mem-read-8	*mem-read-8	*mem-read-8	*mem-read-8	*mem-read-8	*mem-read-8
+CMP	CMP	CMP	CMP	CMP	CMP
+*mem-read-4	*mem-read-4	*mem-read-4	*stack-read	*stack-read	*stack-read
+*stack-read	*stack-read	*stack-read	*mem-write-8	*mem-read-4	*mem-read-4
+*mem-write-8	*mem-write-8	*mem-write-8	*mem-read-4	*mem-write-8	*mem-write-1
+*stack-write	*stack-write	JNZ	*stack-write	*stack-write	*mem-write-8
+JNZ	JZ	*mem-write-1	JZ	*mem-write-1	*stack-write
+JZ	ADD	JZ	ADD	STOSB	STOSB
+ADD	TEST	TEST	TEST	JNZ	JNZ
+TEST	LEA	*stack-write	JNZ	TEST	JZ
+*mem-write-4	JNZ	ADD	LEA	JZ	TEST
+*mem-write-1	PUSH	STOSB	PUSH	ADD	ADD
+STOSB	*mem-write-1	*mem-write-4	POP	*mem-write-4	*mem-write-4
+*mem-read-1	*mem-read-1	INC	*mem-write-1	INC	INC
+INC	POP	JNB	*mem-read-1	*mem-read-1	JNB
+JNB	*mem-write-4	*mem-read-1	MOVZX	JNB	JNL
+LEA	MOVZX	SUB	*mem-write-4	SUB	*mem-read-1
+SUB	STOSB	JNL	AND	JNL	SUB
+MOVZX	AND	*isa-ext-AVX	STOSB	XOR	XOR
+JNL	SUB	XOR	SUB	*iprel-read	*iprel-read
+XOR	JMP	*iprel-read	JMP	*isa-ext-LONGMODE	JL
+SHR	RET_NEAR	SHR	RET_NEAR	PUSH	*isa-ext-LONGMODE
+JMP	CALL_NEAR	JL	CALL_NEAR	JMP	MOVSXD
+NOP	*isa-ext-LONGMODE	*isa-ext-LONGMODE	SHL	SHR	SHR
+*isa-ext-LONGMODE	MOVSXD	MOVSXD	*isa-ext-LONGMODE	JL	NOP
+JL	SHL	JMP	SHR	MOVSXD	PUSH
+MOVSXD	SHR	NOP	XOR	POP	MOVZX
+PUSH	XOR	MOVZX	MOVSXD	MOVZX	POP
+AND	JB	LEA	OR	NOP	JMP
+POP	OR	SHL	JNBE	LEA	*mem-read-2
+SHL	JNBE	*mem-read-2	*mem-read-2	SHL	SHL
+*iprel-read	JNB	PUSH	JB	*mem-read-2	MOVSX
+
+
+
+tungsten_off_wordcount
+
+01gb_pintrace.txt	10gb_pintrace.txt	20gb_pintrace.txt	30gb_pintrace.txt	40gb_pintrace.txt	50gb_pintrace.txt
+*total	*total	*total	*total	*total	*total
+*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE
+MOV	MOV	MOV	MOV	MOV	MOV
+*mem-read-8	*mem-read-8	*mem-read-8	*mem-read-8	*mem-read-8	*mem-read-8
+CMP	CMP	CMP	CMP	CMP	CMP
+*mem-write-8	*mem-write-1	*stack-read	*mem-write-1	*mem-write-1	*mem-write-1
+*stack-read	*stack-read	*mem-write-8	STOSB	STOSB	STOSB
+*mem-read-4	*mem-write-8	*stack-write	ADD	*mem-write-8	ADD
+*stack-write	*mem-read-4	*mem-read-4	*mem-write-8	ADD	*mem-read-4
+ADD	*stack-write	ADD	*mem-read-4	*stack-read	*stack-read
+JZ	STOSB	JZ	*stack-read	*mem-read-4	*mem-write-8
+JNZ	ADD	JNZ	TEST	*stack-write	TEST
+LEA	JZ	TEST	*stack-write	TEST	*stack-write
+TEST	TEST	LEA	JZ	JNZ	JNZ
+PUSH	*mem-read-1	PUSH	JNZ	JZ	JZ
+POP	JNZ	POP	*isa-ext-LONGMODE	*isa-ext-LONGMODE	*mem-write-4
+*mem-read-1	LEA	*mem-read-1	MOVSXD	MOVSXD	*isa-ext-LONGMODE
+*mem-write-1	PUSH	*mem-write-1	*mem-read-1	*mem-write-4	MOVSXD
+MOVZX	POP	MOVZX	*mem-write-4	*mem-read-1	INC
+*mem-write-4	MOVZX	*mem-write-4	INC	INC	*mem-read-1
+SUB	*mem-write-4	SUB	JNL	JNL	JNL
+AND	AND	AND	SUB	SUB	JL
+STOSB	SUB	STOSB	JL	JL	JNB
+RET_NEAR	MOVSB	RET_NEAR	LEA	LEA	SUB
+CALL_NEAR	JMP	CALL_NEAR	JNB	JNB	MOVSX
+JMP	RET_NEAR	JMP	MOVSX	MOVSX	*mem-read-64
+*isa-ext-LONGMODE	CALL_NEAR	*isa-ext-LONGMODE	NOP	*mem-read-64	*isa-ext-3DNOW
+SHL	*isa-ext-LONGMODE	SHL	*mem-read-64	*isa-ext-3DNOW	NOP
+MOVSXD	MOVSXD	SHR	*isa-ext-3DNOW	RET_NEAR	RET_NEAR
+SHR	SHR	MOVSXD	*iprel-read	CALL_NEAR	CALL_NEAR
+XOR	SHL	XOR	SHR	NOP	LEA
+JNBE	XOR	*mem-read-2	JMP	JMP	*iprel-read
+*mem-read-2	*mem-read-2	JNBE	RET_NEAR	*iprel-read	SHR
+JB	JNBE	OR	CALL_NEAR	SHR	JMP
+OR	JB	JB	PUSH	PUSH	XOR
+
+
+
+tungsten_on_basicwordcount
+
+01gb_pintrace.txt	10gb_pintrace.txt	30gb_pintrace.txt	50gb_pintrace.txt
+*total	*total	*total	*total
+*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE
+MOV	MOV	MOV	MOV
+*mem-read-8	*mem-read-8	*mem-read-8	*mem-read-8
+CMP	CMP	CMP	CMP
+*stack-read	*stack-read	*stack-read	*mem-write-1
+*mem-read-4	*mem-read-4	*mem-read-4	*stack-read
+*mem-write-8	*mem-write-8	*mem-write-8	STOSB
+*stack-write	JNZ	*stack-write	*mem-read-4
+JZ	JZ	JNZ	*mem-write-8
+JNZ	TEST	JZ	*stack-write
+ADD	ADD	TEST	JNZ
+TEST	*mem-write-1	ADD	JZ
+*mem-write-1	*stack-write	*mem-write-1	TEST
+*mem-write-4	STOSB	*mem-write-4	ADD
+STOSB	*mem-write-4	STOSB	*mem-write-4
+*mem-read-1	INC	*mem-read-1	INC
+INC	*mem-read-1	LEA	JNB
+LEA	SUB	INC	JNL
+JNB	JNB	JNB	*mem-read-1
+MOVZX	JNL	SUB	SUB
+SUB	XOR	PUSH	XOR
+JNL	*iprel-read	JMP	JL
+SHR	*isa-ext-LONGMODE	POP	*isa-ext-LONGMODE
+XOR	SHR	XOR	MOVSXD
+*isa-ext-LONGMODE	MOVSXD	MOVZX	*iprel-read
+MOVSXD	JL	JNL	SHR
+PUSH	NOP	*isa-ext-LONGMODE	MOVZX
+AND	*isa-ext-AVX	MOVSXD	NOP
+NOP	LEA	SHR	*isa-ext-AVX
+JL	MOVZX	AND	*mem-read-2
+POP	JMP	JL	SHL
+SHL	PUSH	*iprel-read	MOVSX
+JMP	SHL	NOP	JMP
+*iprel-read	POP	SHL	LEA
+
+
+
+tungsten_on_wordcount
+
+01gb_pintrace.txt	10gb_pintrace.txt	20gb_pintrace.txt	30gb_pintrace.txt	40gb_pintrace.txt	50gb_pintrace.txt
+*total	*total	*total	*total	*total	*total
+*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE	*isa-ext-BASE
+MOV	MOV	MOV	MOV	MOV	MOV
+*mem-read-8	*mem-read-8	*mem-read-8	*mem-read-8	*mem-read-8	*mem-read-8
+CMP	CMP	CMP	CMP	CMP	CMP
+*mem-write-1	*stack-read	*mem-write-1	*stack-read	*stack-read	*mem-write-1
+ADD	*mem-write-8	*stack-read	*mem-write-8	*mem-write-8	STOSB
+*mem-write-8	*stack-write	*mem-write-8	*mem-write-1	*stack-write	ADD
+*stack-read	*mem-read-4	ADD	*stack-write	*mem-write-1	*mem-read-4
+*stack-write	ADD	STOSB	*mem-read-4	*mem-read-4	*mem-write-8
+STOSB	JZ	*mem-read-4	ADD	ADD	*stack-read
+*mem-read-4	JNZ	*stack-write	*mem-read-1	JNZ	TEST
+JNZ	TEST	TEST	JNZ	*mem-read-1	*stack-write
+TEST	LEA	JZ	JZ	JZ	JNZ
+JZ	PUSH	JNZ	TEST	TEST	JZ
+RET_NEAR	POP	*mem-read-1	STOSB	STOSB	*mem-write-4
+CALL_NEAR	*mem-read-1	*isa-ext-LONGMODE	LEA	LEA	*isa-ext-LONGMODE
+*mem-read-1	*mem-write-1	MOVSXD	MOVSB	PUSH	MOVSXD
+*mem-write-4	MOVZX	LEA	PUSH	MOVSB	INC
+*isa-ext-LONGMODE	*mem-write-4	*mem-write-4	RET_NEAR	POP	*mem-read-1
+*isa-ext-PAUSE	AND	SUB	MOVZX	RET_NEAR	JNL
+MOVSXD	SUB	MOVSB	CALL_NEAR	CALL_NEAR	JL
+INC	RET_NEAR	INC	POP	MOVZX	JNB
+SUB	CALL_NEAR	SHR	*mem-write-4	*mem-write-4	SUB
+LEA	STOSB	JNL	AND	AND	MOVSX
+JNL	JMP	PUSH	*isa-ext-PAUSE	SUB	*mem-read-64
+JNB	*isa-ext-LONGMODE	JMP	SUB	*isa-ext-PAUSE	*isa-ext-3DNOW
+JL	SHL	AND	JMP	JMP	NOP
+MOVSX	SHR	RET_NEAR	*isa-ext-LONGMODE	SHR	RET_NEAR
+JMP	MOVSXD	CALL_NEAR	SHR	*isa-ext-LONGMODE	CALL_NEAR
+NOP	XOR	POP	MOVSXD	SHL	LEA
+PUSH	*mem-read-2	JL	SHL	MOVSXD	*iprel-read
+SHR	JNBE	JNB	*mem-read-2	XOR	SHR
+MOVSB	OR	NOP	XOR	JNBE	JMP
+*mem-read-64	JB	MOVSX	JNBE	OR	XOR
+
+
+

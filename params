@@ -1,0 +1,69 @@
+Metric Name
+----------------
+Elapsed Time - Elapsed time is the wall time from the beginning to the end of collection.
+
+Clockticks - 
+
+Instructions Retired - The Instructions Retired is an important hardware performance event that shows how many instructions were completely executed.Modern processors execute much more instructions that the program flow needs. This is called a speculative execution. Instructions that were "proven" as indeed needed by the program execution flow are "retired".
+
+CPI Rate - Cycles per Instruction Retired, or CPI, is a fundamental performance metric indicating approximately how much time each executed instruction took, in units of cycles
+
+MUX Reliability - This metric estimates reliability of HW event-related metrics. Since the number of collected HW events exceeds the number of counters, Intel® VTune™ Amplifier uses event multiplexing (MUX) to share HW counters and collect different subsets of events over time. This may affect the precision of collected event data. The ideal value for this metric is 1. If the value is less than 0.7, the collected data may be not reliable.
+
+Front-End Bound - Front-End Bound metric represents a slots fraction where the processor's Front-End undersupplies its Back-End. Front-End denotes the first part of the processor core responsible for fetching operations that are executed later on by the Back-End part. Within the Front-End, a branch predictor predicts the next address to fetch, cache-lines are fetched from the memory subsystem, parsed into instructions, and lastly decoded into micro-ops (uOps). Front-End Bound metric denotes unutilized issue-slots when there is no Back-End stall (bubbles where Front-End delivered no uOps while Back-End could have accepted them). For example, stalls due to instruction-cache misses would be categorized as Front-End Bound.
+
+Front-End Latency - This metric represents a fraction of slots during which CPU was stalled due to front-end latency issues, such as instruction-cache misses, ITLB misses or fetch stalls after a branch misprediction. In such cases, the front-end delivers no uOps.
+
+ICache Misses - To introduce new uOps into the pipeline, the core must either fetch them from a decoded instruction cache, or fetch the instructions themselves from memory and then decode them. In the latter path, the requests to memory first go through the L1I (level 1 instruction) cache that caches the recent code working set. Front-end stalls can accrue when fetched instructions are not present in the L1I. Possible reasons are a large code working set or fragmentation between hot and cold code. In the latter case, when a hot instruction is fetched into the L1I, any cold code on its cache line is brought along with it. This may result in the eviction of other, hotter code.
+
+ITLB Overhead - In x86 architectures, mappings between virtual and physical memory are facilitated by a page table, which is kept in memory. To minimize references to this table, recently-used portions of the page table are cached in a hierarchy of 'translation look-aside buffers', or TLBs, which are consulted on every virtual address translation. As with data caches, the farther a request has to go to be satisfied, the worse the performance impact. This metric estimates the performance penalty of page walks induced on ITLB (instruction TLB) misses.
+
+Branch Resteers - 
+
+DSB Switches - Intel microarchitecture code name Sandy Bridge introduces a new decoded ICache. This cache, called the DSB (Decoded Stream Buffer), stores uOps that have already been decoded, avoiding many of the penalties of the legacy decode pipeline, called the MITE (Micro-instruction Translation Engine). However, when control flows out of the region cached in the DSB, the front-end incurs a penalty as uOp issue switches from the DSB to the MITE. This metric measures this penalty.
+
+Length Changing Prefixes - This metric represents a fraction of cycles during which CPU was stalled due to Length Changing Prefixes (LCPs). To avoid this issue, use proper compiler flags. Intel Compiler enables these flags by default.
+
+MS Switches - This metric represents a fraction of cycles when the CPU was stalled due to switches of uop delivery to the Microcode Sequencer (MS). Commonly used instructions are optimized for delivery by the DSB or MITE pipelines. Certain operations cannot be handled natively by the execution pipeline, and must be performed by microcode (small programs injected into the execution stream). Switching to the MS too often can negatively impact performance. The MS is designated to deliver long uOp flows required by CISC instructions like CPUID, or uncommon conditions like Floating Point Assists when dealing with Denormals.
+
+Front-End Bandwidth - This metric represents a fraction of slots during which CPU was stalled due to front-end bandwidth issues, such as inefficiencies in the instruction decoders or code restrictions for caching in the DSB (decoded uOps cache). In such cases, the front-end typically delivers a non-optimal amount of uOps to the back-end.
+
+Front-End Bandwidth MITE - This metric represents a fraction of cycles during which CPU was stalled due to the MITE fetch pipeline issues, such as inefficiencies in the instruction decoders.
+
+Front-End Bandwidth DSB -This metric represents a fraction of cycles during which CPU was likely limited due to DSB (decoded uop cache) fetch pipeline. For example, inefficient utilization of the DSB cache structure or bank conflict when reading from it, are categorized here. 
+
+Front-End Bandwidth LSD - This metric represents a fraction of cycles during which CPU operation was limited by the LSD (Loop Stream Detector) unit. Typically, LSD provides good uOp supply. However, in some rare cases, optimal uOp delivery cannot be reached for small loops whose size (in terms of number of uOps) does not suit well the LSD structure.
+
+Branch Mispredict - When a branch mispredicts, some instructions from the mispredicted path still move through the pipeline. All work performed on these instructions is wasted since they would not have been executed had the branch been correctly predicted. This metric represents slots fraction the CPU has wasted due to Branch Misprediction. 
+
+Back-End Bound - Back-End Bound metric represents a Pipeline Slots fraction where no uOps are being delivered due to a lack of required resources for accepting new uOps in the Back-End. Back-End is a portion of the processor core where an out-of-order scheduler dispatches ready uOps into their respective execution units, and, once completed, 
+
+Memory Bound - This metric shows how memory subsystem issues affect the performance. Memory Bound measures a fraction of slots where pipeline could be stalled due to demand load or store instructions. This accounts mainly for incomplete in-flight memory demand loads that coincide with execution starvation in addition to less common cases where stores could imply back-pressure on the pipeline.
+
+L1 Bound - This metric shows how often machine was stalled without missing the L1 data cache. The L1 cache typically has the shortest latency. However, in certain cases like loads blocked on older stores, a load might suffer a high latency even though it is being satisfied by the L1.
+
+Lock Latency - This metric represents cycles fraction the CPU spent handling cache misses due to lock operations. Due to the microarchitecture handling of locks, they are classified as L1 Bound regardless of what memory source satisfied them.
+
+L2 Bound - This metric shows how often machine was stalled on L2 cache. Avoiding cache misses (L1 misses/L2 hits) will improve the latency and increase performance.
+
+L3 Bound - This metric shows how often CPU was stalled on L3 cache, or contended with a sibling Core. Avoiding cache misses (L2 misses/L3 hits) improves the latency and increases performance.
+
+Data Sharing - Data shared by multiple threads (even just read shared) may cause increased access latency due to cache coherency. This metric measures the impact of that coherency. Excessive data sharing can drastically harm multithreaded performance. This metric is defined by the ratio of cycles while the caching system is handling shared data to all cycles. It does not measure waits due to contention on a variable, which is measured by the Threading analysis.
+
+L3 Latency - This metric shows a fraction of cycles with demand load accesses that hit the L3 cache under unloaded scenarios (possibly L3 latency limited). Avoiding private cache misses (i.e. L2 misses/L3 hits) will improve the latency, reduce contention with sibling physical cores and increase performance.
+
+DRAM Bound - This metric shows how often CPU was stalled on the main memory (DRAM). Caching typically improves the latency and increases performance.
+
+Memory Bandwidth - This metric represents a fraction of cycles during which an application could be stalled due to approaching bandwidth limits of the main memory (DRAM). This metric does not aggregate requests from other threads/cores/sockets (see Uncore counters for that). Consider improving data locality in NUMA multi-socket systems.
+
+Memory Latency - This metric represents a fraction of cycles during which an application could be stalled due to the latency of the main memory (DRAM). This metric does not aggregate requests from other threads/cores/sockets.
+
+Local DRAM - This metric shows how often CPU was stalled on loads from local memory. Caching will improve the latency and increase performance.
+
+Remote DRAM - This metric shows how often CPU was stalled on loads from remote memory. This is caused often due to non-optimal NUMA allocations.
+
+Remote Cache - This metric shows how often CPU was stalled on loads from remote cache in other sockets. This is caused often due to non-optimal NUMA allocations.
+
+Core Bound - This metric represents how much Core non-memory issues were of a bottleneck. Shortage in hardware compute resources, or dependencies software's instructions are both categorized under Core Bound.
+
+Vector Capacity Usage (FPU) - This metric represents how the application code vectorization relates to the floating point computations. A value of 100% means that all floating point instructions are vectorized with the full vector capacity.

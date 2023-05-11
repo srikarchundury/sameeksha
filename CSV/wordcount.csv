@@ -1,0 +1,83 @@
+wc_on_1	wc_off_1	wcdf_on_1	wcdf_off_1	wc_on_10	wc_off_10	wcdf_on_10	wcdf_off_10
+Elapsed Time	11.68143	12.3058	5.85797	6.06123	62.88552	173.55413	5.65655	5.64898
+Clockticks	2.06581E+11	2.27184E+11	31489500000	31869600000	1.62278E+12	1.32714E+12	31638600000	30464700000
+Instructions Retired	2.35154E+11	2.41983E+11	37596300000	38755500000	1.95791E+12	1.98111E+12	38514000000	35198100000
+CPI Rate	0.87849	0.93884	0.83757	0.82233	0.82883	0.6699	0.82148	0.86552
+MUX Reliability	0.99743	0.99017	0.93441	0.95075	0.99977	0.99969	0.96902	0.94864
+Front-End Bound	22.8	23	31.8	32.1	22.8	17.5	31.6	34.5
+Front-End Latency	13	13.2	21	21.7	11	8.2	21.6	23.5
+ICache Misses	1.9	1.9	6.8	6.1	1.1	1.3	7.1	7.4
+ITLB Overhead	0.6	0.3	1.2	1.3	0.2	0.3	1.4	1
+Branch Resteers	3.7	4.9	6.5	6.5	2.3	2.8	6.8	4.9
+Mispredicts Resteers	2.7	3.7	4.3	3.3	1.8	2.2	4	3
+Clears Resteers	0.1	0.3	0	0	0.1	0.1	0	0
+Unknown Branches	0.9	0.8	2.2	3.2	0.4	0.5	2.8	1.9
+DSB Switches	2.3	2.5	1.4	0.9	2.8	2	1.1	1
+Length Changing Prefixes	0	0	0	0	0	0	0	0
+MS Switches	0.7	0.6	0.3	0.3	1.8	2.1	0.9	0.3
+Front-End Bandwidth	9.8	9.8	10.8	10.4	11.8	9.3	10.1	11.1
+Front-End Bandwidth MITE	14.6	14.4	19.6	16.7	13.8	9	16.4	17.6
+Front-End Bandwidth DSB	18.9	17.2	15.4	14.6	20	23.5	13.5	17.1
+Front-End Bandwidth LSD	1	0.9	0.2	0	2.4	2	0.3	0.4
+(Info) DSB Coverage	63.6	62.3	69.2	68.6	65.2	71.9	64.8	64.1
+(Info) LSD Coverage	10	8.9	3.7	3.4	8.9	10.7	5.2	4.7
+Bad Speculation	6.6	7.5	16.4	18.1	2.9	4	15.3	15
+Branch Mispredict	6.4	6.8	16.4	18.1	2.8	3.8	15.3	15
+Machine Clears	0.2	0.6	0	0	0.1	0.2	0	0
+Back-End Bound	26.7	27	15.2	8.9	21.4	26.4	21.8	23.8
+Memory Bound	17.5	19.7	7.7	5.2	13.7	15.3	12.8	14.1
+L1 Bound	11.1	9.8	11.1	7.5	14.6	11.2	12	13
+DTLB Overhead	3.3	4.5	3.8	3.6	4.9	4	5.3	3.5
+Loads Blocked by Store Forwarding	0	0.1	0.1	0.4	0	0.2	0.4	0.5
+Lock Latency	0	0.1	0.1	0.1	0.1	0.1	0.1	0.1
+Split Loads	0	0	0	0	0.2	0.1	0	0
+4K Aliasing	3.6	3.8	2.4	2.3	3	3.9	3.2	2.5
+FB Full	60.1	72.7	0	2.9	100	77.5	0	2.6
+L2 Bound	1	2.3	1.7	3.9	2.9	1.8	2.1	0.5
+L3 Bound	3.8	5.6	9.1	5.3	2.1	2.8	9.1	9.5
+Contested Accesses	5	11.4	0	0	1.8	2.2	0	0
+Data Sharing	0.4	1	0	0	0.3	0.4	0	0
+L3 Latency	9.5	9.8	35	27.5	5.1	6.5	29.4	37.5
+SQ Full	2.8	3.5	0.1	0	8.7	4.7	0.2	0.4
+DRAM Bound	19.1	19.2	1.3	3	14.6	14.2	1.4	1
+Memory Bandwidth	43.1	48	16.5	18.5	32.7	30.4	17.7	19.7
+Memory Latency	47.2	41.9	48	54.3	49.2	50	46.3	46
+Local DRAM	31	25.1	0	2.7	23.7	23	3.1	2.7
+Remote DRAM	0	0	0	0	0.2	0.1	0	0
+Remote Cache	0	0	0	0	0	0	0	0
+Store Bound	7.8	12.8	3.5	5.3	8.7	8.5	5.2	5.7
+Store Latency	27.7	40.6	19.7	18.1	27	26	12.7	16.3
+Store L2	1.6	1.5	0	0	2.3	2.9	0	0.1
+Store L3	10.2	15.1	19.7	18.1	7.9	6.2	12.7	10.8
+Store Memory	15.9	24	0	0	16.7	16.9	0	5.4
+False Sharing	0.6	1.5	0	0	0.7	0.5	0	0
+Split Stores	0.3	0.2	0.1	0.1	0.3	0.3	0.1	0
+DTLB Store Overhead	0.8	0.9	0.8	0.8	0.9	0.8	0.6	0.6
+Core Bound	9.2	7.3	7.5	3.7	7.7	11.1	9	9.7
+Divider	1.3	1.3	0.2	0	2.3	2.1	0	0.2
+Port Utilization	22.5	18.6	26	17.9	24.3	28	20.9	20.5
+Cycles of 0 Ports Utilized	62	62.8	34.5	41.7	77.1	59.5	33.6	38
+Cycles of 1 Port Utilized	12.1	14.9	9.2	11.6	14.8	11.5	6.7	10.4
+Cycles of 2 Ports Utilized	16.1	16.4	9.1	11.1	20.2	15.4	9.7	9.8
+Cycles of 3+ Ports Utilized	33.8	31.6	16.2	18.9	42.1	32.6	17.1	17.8
+Port 0	23.1	22	13.4	16.4	27.5	27.2	15.2	14.5
+Port 1	21	20.6	15.5	19.4	24.7	24.7	16.4	17.1
+Port 2	36.2	31.5	26.1	35.2	35.4	35.8	26.6	24.9
+Port 3	37	32.2	27	36.3	36.4	36.7	27.4	26.3
+Port 4	25.4	22.5	17.5	24.9	25.1	25.2	18.5	18
+Port 5	20.4	21.2	15.9	20.8	25.2	25.3	17	17.5
+Port 6	36.9	37.8	35	41.1	43.2	42.9	35	35.5
+Port 7	14.8	13.6	11.3	15.5	14.4	14.8	13	11.8
+Vector Capacity Usage (FPU)	0	0	0	0	21.2	21	0	0
+Retiring	43.9	42.6	36.6	40.9	52.9	52.1	31.3	26.6
+General Retirement	43.2	41.9	35.9	40.3	51.3	50.5	30.6	26
+FP Arithmetic	0	0	0	0	0.2	0.2	0	0
+FP x87	0	0	0	0	0.1	0.1	0	0
+FP Scalar	0	0	0	0	0.2	0.1	0	0
+FP Vector	0	0	0	0	0	0	0	0
+Other	100	100	100	100	99.8	99.8	100	100
+Microcode Sequencer	0.7	0.7	0.7	0.6	1.6	1.6	0.7	0.6
+Assists	0	0	0	0	0	0	0	0
+Total Thread Count	282	286	127	126	1341	1351	125	128
+Paused Time	0	0	0	0	0	0	0	0
+Frame Count	18	19	4	4	37	37	4	4

@@ -1,0 +1,27 @@
+Benchmark - wordcount ; Tungsten - off ; Input Size - 1gb
++---------------+------+
+|           word| count|
++---------------+------+
+|            art| 26853|
+|      involving| 33133|
+|         djelfa|  9088|
+|      standards|  7428|
+|         bazaar|  3032|
+|          turks| 18359|
+|      connected|  6996|
+|           some|137310|
+|     commanders| 21953|
+|         online| 32286|
+|professionnelle| 11103|
+|            few| 35730|
+|             07| 86800|
+|          those| 51709|
+|          inner|  3586|
+|     lieutenant| 18570|
+|          still| 48071|
+|        familia|  4310|
+|         tonnes|  4574|
+|    herzegovina|  6394|
++---------------+------+
+only showing top 20 rows
+
